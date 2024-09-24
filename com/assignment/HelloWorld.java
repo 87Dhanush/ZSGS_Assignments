@@ -2,6 +2,10 @@ package com.assignment;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String output=greetings();
+        System.out.println(output);
+    }
+    public static String greetings(){
+        return "Hello World!";
     }
 }
