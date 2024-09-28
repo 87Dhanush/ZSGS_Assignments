@@ -1,0 +1,2342 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://codingbat.com/prob/p178318
+Subject: CodingBat Java Warmup-2 last2
+Date: Thu, 12 Sep 2024 19:07:08 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----"
+
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/html
+Content-ID: <frame-4AA506FBC0F2E8B4BA8267301D304AA2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/prob/p178318
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-d4c51ffd-0efa-4dd9-bc2d-6c468741665e@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-15392e78-3847-4a4f-9971-b32ce0=
+7e5b24@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"ci=
+d:css-59762269-930e-4fbf-945c-7d78397c0f7c@mhtml.blink" /><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-2aa6e9a4-ae81-4f1c-a65d-63e52e2a6=
+78f@mhtml.blink" />
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://codingbat.com/co=
+dingbat.css">
+
+
+
+<title>CodingBat Java Warmup-2 last2</title>
+<link type=3D"text/css" rel=3D"stylesheet" href=3D"https://fonts.googleapis=
+.com/css2?family=3DOpen+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;=
+1,300;1,400;1,500;1,600;1,700;1,800&amp;family=3DPoppins:ital,wght@0,400;0,=
+500;0,600;0,800;1,400;1,500;1,600;1,800&amp;display=3Dswap"></head>
+<body><div style=3D"float:right;  margin:0px; border: 1px solid lightgray;"=
+><table><tbody><tr><td>dhanushrajcdm2003<br>@gmail.com</td></tr><tr><td>[<a=
+ href=3D"https://codingbat.com/logout">log out</a>]</td></tr></tbody></tabl=
+e></div><div style=3D"float:right"><table><tbody><tr><td valign=3D"top" sty=
+le=3D"text-align:right" colspan=3D"1"><a href=3D"https://codingbat.com/abou=
+t.html">about</a> | <a href=3D"https://codingbat.com/help.html">help</a> | =
+<a href=3D"https://codingbat.com/doc/code-help-videos.html">code help+video=
+s | </a><a href=3D"https://codingbat.com/done?user=3Ddhanushrajcdm2003@gmai=
+l.com&amp;tag=3D382235728">done</a> | <a href=3D"https://codingbat.com/repo=
+rt">report</a> | <a href=3D"https://codingbat.com/pref">prefs</a> </td></tr=
+></tbody></table></div><a href=3D"https://codingbat.com/"><span style=3D"fo=
+nt-size:200%;">CodingBat</span></a> code practice
+<div class=3D"pretab"><p class=3D"max">&nbsp;</p></div><div class=3D"tabc">=
+<nav><ul><li class=3D"h2" id=3D"selected"><a href=3D"https://codingbat.com/=
+java">Java</a></li><li class=3D"h2"><a href=3D"https://codingbat.com/python=
+">Python</a></li></ul></nav><div class=3D"tabin"><div class=3D"indent"><a h=
+ref=3D"https://codingbat.com/java/Warmup-2"><span class=3D"h2">Warmup-2</sp=
+an></a> &gt; <span class=3D"h2">last2</span>
+<br><a href=3D"https://codingbat.com/prob/p117334">prev</a> &nbsp;|&nbsp; <=
+a href=3D"https://codingbat.com/prob/p184031">next</a> &nbsp;|&nbsp; <a rel=
+=3D"nofollow" href=3D"https://codingbat.com/java/Warmup-2?chance=3D1">chanc=
+e</a>
+<p></p><table border=3D"0"><tbody><tr><td valign=3D"top"><div class=3D"minh=
+"><p class=3D"max2">Given a string, return the count of the number of times=
+ that a substring length 2 appears in the string and also as the last 2 cha=
+rs of the string, so "hixxxhi" yields 1 (we won't count the end substring).=
+</p></div><br>last2("hixxhi") =E2=86=92 1<br>last2("xaxxaxaxx") =E2=86=92 1=
+<br>last2("axxxaaxx") =E2=86=92 2<p><button class=3D"go">Go</button>...Save=
+, Compile, Run (ctrl-enter)<span style=3D"margin-left:60px;"><button class=
+=3D"gray">Show Solution</button>
+</span></p><form name=3D"codeform"><div id=3D"ace_div" class=3D" ace_editor=
+ ace-chrome ace_focus" draggable=3D"false"><textarea class=3D"ace_text-inpu=
+t" wrap=3D"off" autocorrect=3D"off" autocapitalize=3D"off" spellcheck=3D"fa=
+lse" style=3D"opacity: 0; height: 14.6667px; width: 6.59771px; left: 83.172=
+5px; top: 0px;"></textarea><div class=3D"ace_gutter" style=3D"display: none=
+;"><div class=3D"ace_layer ace_gutter-layer ace_folding-enabled" style=3D"m=
+argin-top: 0px; height: 404.333px; width: 47px;"><div class=3D"ace_gutter-c=
+ell " style=3D"height: 14.6667px;">1<span class=3D"ace_fold-widget ace_star=
+t ace_open" style=3D"height: 14.6667px;"></span></div><div class=3D"ace_gut=
+ter-cell " style=3D"height: 14.6667px;">2</div><div class=3D"ace_gutter-cel=
+l " style=3D"height: 14.6667px;">3</div><div class=3D"ace_gutter-cell " sty=
+le=3D"height: 14.6667px;">4</div><div class=3D"ace_gutter-cell " style=3D"h=
+eight: 14.6667px;">5</div><div class=3D"ace_gutter-cell " style=3D"height: =
+14.6667px;">6</div><div class=3D"ace_gutter-cell " style=3D"height: 14.6667=
+px;">7<span class=3D"ace_fold-widget ace_start ace_open" style=3D"height: 1=
+4.6667px;"></span></div><div class=3D"ace_gutter-cell " style=3D"height: 14=
+.6667px;">8<span class=3D"ace_fold-widget ace_start ace_open" style=3D"heig=
+ht: 14.6667px;"></span></div><div class=3D"ace_gutter-cell " style=3D"heigh=
+t: 14.6667px;">9</div><div class=3D"ace_gutter-cell " style=3D"height: 14.6=
+667px;">10</div><div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;=
+">11</div><div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">12</=
+div><div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">13</div><d=
+iv class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">14</div><div cla=
+ss=3D"ace_gutter-cell " style=3D"height: 14.6667px;">15</div></div><div cla=
+ss=3D"ace_gutter-active-line" style=3D"top: 0px; height: 14.6667px;"></div>=
+</div><div class=3D"ace_scroller" style=3D"left: 0px; right: 0px; bottom: 0=
+px;"><div class=3D"ace_content" style=3D"margin-top: 0px; width: 600px; hei=
+ght: 404.333px; margin-left: 0px;"><div class=3D"ace_layer ace_print-margin=
+-layer"><div class=3D"ace_print-margin" style=3D"left: 531.817px; visibilit=
+y: visible;"></div></div><div class=3D"ace_layer ace_marker-layer"><div cla=
+ss=3D"ace_active-line" style=3D"height:14.666666984558105px;top:0px;left:0;=
+right:0;"></div></div><div class=3D"ace_layer ace_text-layer" style=3D"padd=
+ing: 0px 4px;"><div class=3D"ace_line" style=3D"height: 14.6667px;"><span c=
+lass=3D"ace_keyword">public</span> <span class=3D"ace_keyword">int</span> <=
+span class=3D"ace_identifier">last2</span>(<span class=3D"ace_support ace_f=
+unction">String</span> <span class=3D"ace_identifier">input</span>) {</div>=
+<div class=3D"ace_line" style=3D"height:14.666666984558105px"><span class=
+=3D"ace_indent-guide">  </span>  <span class=3D"ace_keyword">if</span> (<sp=
+an class=3D"ace_identifier">input</span>.<span class=3D"ace_identifier">len=
+gth</span>() <span class=3D"ace_keyword ace_operator">&lt;</span> <span cla=
+ss=3D"ace_constant ace_numeric">2</span>) <span class=3D"ace_keyword">retur=
+n</span> <span class=3D"ace_constant ace_numeric">0</span>;</div><div class=
+=3D"ace_line" style=3D"height:14.666666984558105px"></div><div class=3D"ace=
+_line" style=3D"height:14.666666984558105px"><span class=3D"ace_indent-guid=
+e">  </span>  <span class=3D"ace_support ace_function">String</span> <span =
+class=3D"ace_identifier">last2Chars</span> <span class=3D"ace_keyword ace_o=
+perator">=3D</span> <span class=3D"ace_identifier">input</span>.<span class=
+=3D"ace_identifier">substring</span>(<span class=3D"ace_identifier">input</=
+span>.<span class=3D"ace_identifier">length</span>() <span class=3D"ace_key=
+word ace_operator">-</span> <span class=3D"ace_constant ace_numeric">2</spa=
+n>);</div><div class=3D"ace_line" style=3D"height:14.666666984558105px"><sp=
+an class=3D"ace_indent-guide">  </span>  <span class=3D"ace_keyword">int</s=
+pan> <span class=3D"ace_identifier">matches</span> <span class=3D"ace_keywo=
+rd ace_operator">=3D</span> <span class=3D"ace_constant ace_numeric">0</spa=
+n>;</div><div class=3D"ace_line" style=3D"height:14.666666984558105px"></di=
+v><div class=3D"ace_line" style=3D"height:14.666666984558105px"><span class=
+=3D"ace_indent-guide">  </span>  <span class=3D"ace_keyword">for</span> (<s=
+pan class=3D"ace_keyword">int</span> <span class=3D"ace_identifier">i</span=
+> <span class=3D"ace_keyword ace_operator">=3D</span> <span class=3D"ace_co=
+nstant ace_numeric">0</span>; <span class=3D"ace_identifier">i</span> <span=
+ class=3D"ace_keyword ace_operator">&lt;</span> <span class=3D"ace_identifi=
+er">input</span>.<span class=3D"ace_identifier">length</span>() <span class=
+=3D"ace_keyword ace_operator">-</span> <span class=3D"ace_constant ace_nume=
+ric">2</span>; <span class=3D"ace_identifier">i</span><span class=3D"ace_ke=
+yword ace_operator">++</span>) {</div><div class=3D"ace_line" style=3D"heig=
+ht:14.666666984558105px"><span class=3D"ace_indent-guide">  </span><span cl=
+ass=3D"ace_indent-guide">  </span><span class=3D"ace_indent-guide">  </span=
+>  <span class=3D"ace_keyword">if</span> (<span class=3D"ace_identifier">in=
+put</span>.<span class=3D"ace_identifier">substring</span>(<span class=3D"a=
+ce_identifier">i</span>, <span class=3D"ace_identifier">i</span> <span clas=
+s=3D"ace_keyword ace_operator">+</span> <span class=3D"ace_constant ace_num=
+eric">2</span>).<span class=3D"ace_identifier">equals</span>(<span class=3D=
+"ace_identifier">last2Chars</span>)) {</div><div class=3D"ace_line" style=
+=3D"height:14.666666984558105px"><span class=3D"ace_indent-guide">  </span>=
+<span class=3D"ace_indent-guide">  </span><span class=3D"ace_indent-guide">=
+  </span><span class=3D"ace_indent-guide">  </span><span class=3D"ace_inden=
+t-guide">  </span>  <span class=3D"ace_identifier">matches</span><span clas=
+s=3D"ace_keyword ace_operator">++</span>;</div><div class=3D"ace_line" styl=
+e=3D"height:14.666666984558105px"><span class=3D"ace_indent-guide">  </span=
+><span class=3D"ace_indent-guide">  </span><span class=3D"ace_indent-guide"=
+>  </span>  }</div><div class=3D"ace_line" style=3D"height:14.6666669845581=
+05px"><span class=3D"ace_indent-guide">  </span>  }</div><div class=3D"ace_=
+line" style=3D"height:14.666666984558105px"></div><div class=3D"ace_line" s=
+tyle=3D"height:14.666666984558105px"><span class=3D"ace_indent-guide">  </s=
+pan>  <span class=3D"ace_keyword">return</span> <span class=3D"ace_identifi=
+er">matches</span>;</div><div class=3D"ace_line" style=3D"height:14.6666669=
+84558105px">}</div><div class=3D"ace_line" style=3D"height:14.6666669845581=
+05px"></div></div><div class=3D"ace_layer ace_marker-layer"></div><div clas=
+s=3D"ace_layer ace_cursor-layer"><div class=3D"ace_cursor" style=3D"left: 8=
+3.1725px; top: 0px; width: 6.59771px; height: 14.6667px;"></div></div></div=
+></div><div class=3D"ace_scrollbar ace_scrollbar-v" style=3D"display: none;=
+ width: 22px; bottom: 0px;"><div class=3D"ace_scrollbar-inner" style=3D"wid=
+th: 22px; height: 220px;"></div></div><div class=3D"ace_scrollbar ace_scrol=
+lbar-h" style=3D"display: none; height: 22px; left: 0px; right: 0px;"><div =
+class=3D"ace_scrollbar-inner" style=3D"height: 22px; width: 600px;"></div><=
+/div><div style=3D"height: auto; width: auto; top: 0px; left: 0px; visibili=
+ty: hidden; position: absolute; white-space: pre; font: inherit; overflow: =
+hidden;"><div style=3D"height: auto; width: auto; top: 0px; left: 0px; visi=
+bility: hidden; position: absolute; white-space: pre; font: inherit; overfl=
+ow: visible;"></div><div style=3D"height: auto; width: auto; top: 0px; left=
+: 0px; visibility: hidden; position: absolute; white-space: pre; font-style=
+: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit=
+; line-height: inherit; font-family: inherit; font-optical-sizing: inherit;=
+ font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: i=
+nherit; font-variation-settings: inherit; overflow: visible;">XXXXXXXXXXXXX=
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div></div></div>
+
+
+
+<p><button class=3D"go">Go</button></p><p>Editor font size %:<select name=
+=3D"font"><option>75</option><option selected=3D"">100</option><option>125<=
+/option><option>150</option></select><br>Shorter output <input type=3D"chec=
+kbox" name=3D"outputonly">
+</p></form></td><td width=3D"500" valign=3D"top"><div id=3D"results" style=
+=3D"margin-top:10em;margin-left:1em;"><div id=3D"tests"><table class=3D"out=
+">
+<tbody><tr><th>Expected</th><th>Run</th><th></th><th></th></tr>
+<tr><td>last2("hixxhi") =E2=86=92 1</td><td>1</td><td>OK</td><td class=3D"o=
+k"></td></tr>
+
+<tr><td>last2("xaxxaxaxx") =E2=86=92 1</td><td>1</td><td>OK</td><td class=
+=3D"ok"></td></tr>
+
+<tr><td>last2("axxxaaxx") =E2=86=92 2</td><td>2</td><td>OK</td><td class=3D=
+"ok"></td></tr>
+
+<tr><td>last2("xxaxxaxxaxx") =E2=86=92 3</td><td>3</td><td>OK</td><td class=
+=3D"ok"></td></tr>
+
+<tr><td>last2("xaxaxaxx") =E2=86=92 0</td><td>0</td><td>OK</td><td class=3D=
+"ok"></td></tr>
+
+<tr><td>last2("xxxx") =E2=86=92 2</td><td>2</td><td>OK</td><td class=3D"ok"=
+></td></tr>
+
+<tr><td>last2("13121312") =E2=86=92 1</td><td>1</td><td>OK</td><td class=3D=
+"ok"></td></tr>
+
+<tr><td>last2("11212") =E2=86=92 1</td><td>1</td><td>OK</td><td class=3D"ok=
+"></td></tr>
+
+<tr><td>last2("13121311") =E2=86=92 0</td><td>0</td><td>OK</td><td class=3D=
+"ok"></td></tr>
+
+<tr><td>last2("1717171") =E2=86=92 2</td><td>2</td><td>OK</td><td class=3D"=
+ok"></td></tr>
+
+<tr><td>last2("hi") =E2=86=92 0</td><td>0</td><td>OK</td><td class=3D"ok"><=
+/td></tr>
+
+<tr><td>last2("h") =E2=86=92 0</td><td>0</td><td>OK</td><td class=3D"ok"></=
+td></tr>
+
+<tr><td>last2("") =E2=86=92 0</td><td>0</td><td>OK</td><td class=3D"ok"></t=
+d></tr>
+
+</tbody></table></div>
+<br><center><img src=3D"https://codingbat.com/c2big.jpg"><font size=3D"+2">=
+All Correct</font></center>
+<p> <a href=3D"https://codingbat.com/prob/p184031">next</a> &nbsp;|&nbsp; <=
+a rel=3D"nofollow" href=3D"https://codingbat.com/java/Warmup-2?chance=3D1">=
+chance</a></p><p><a href=3D"https://codingbat.com/java">Java</a>&nbsp; &gt;=
+ &nbsp;<a href=3D"https://codingbat.com/java/Warmup-2">Warmup-2</a></p><p><=
+a href=3D"https://codingbat.com/done?user=3Ddhanushrajcdm2003@gmail.com&amp=
+;tag=3D382235728">dhanushrajcdm2003@gmail.com done page</a>
+</p><p>Your <a href=3D"https://codingbat.com/done/p178318">progress graph</=
+a> for this problem
+</p></div></td></tr></tbody></table>
+<br><a rel=3D"nofollow" href=3D"https://codingbat.com/prob/p178318?clear=3D=
+1">Forget It!</a> -- delete my code for this problem
+<p>Progress graphs: <br>&nbsp;<a href=3D"https://codingbat.com/done/p178318=
+">Your progress graph</a> for this problem<br>&nbsp;<a rel=3D"nofollow" hre=
+f=3D"https://codingbat.com/done/p178318?random">Random user progress graph<=
+/a> for this problem <br>&nbsp;<a rel=3D"nofollow" href=3D"https://codingba=
+t.com/done/epic">Random Epic Progress Graph</a>
+</p><h3>Java Help</h3><p style=3D"max-width:800px"></p><ul><li><a href=3D"h=
+ttps://codingbat.com/doc/java-example-solution-code.html">Java Example Solu=
+tion Code</a></li><li><a href=3D"https://codingbat.com/doc/java-string-intr=
+oduction.html">Java String Introduction</a> (video) </li><li><a href=3D"htt=
+ps://codingbat.com/doc/java-string-substring.html">Java Substring v2</a> (v=
+ideo)</li><li><a href=3D"https://codingbat.com/doc/java-string-equals-loops=
+.html">Java String Equals and Loops</a></li><li><a href=3D"https://codingba=
+t.com/doc/java-string-indexof-parsing.html">Java String indexOf and Parsing=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-if-boolean-logic.htm=
+l">Java If and Boolean Logic</a></li><li>&nbsp; <a href=3D"https://codingba=
+t.com/doc/java-if-boolean-example-solution-code-1.html">If Boolean Logic Ex=
+ample Solution Code 1</a> (video)</li><li>&nbsp; <a href=3D"https://codingb=
+at.com/doc/java-if-boolean-example-solution-code-2.html">If Boolean Logic E=
+xample Solution Code 2</a> (video)</li><li><a href=3D"https://codingbat.com=
+/doc/java-for-while-loops.html">Java For and While Loops</a></li><li><a hre=
+f=3D"https://codingbat.com/doc/java-array-loops.html">Java Arrays and Loops=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-map-introduction.htm=
+l">Java Map Introduction</a></li><li><a href=3D"https://codingbat.com/doc/j=
+ava-map-wordcount.html">Java Map WordCount</a></li><li><a href=3D"https://c=
+odingbat.com/doc/java-functional-mapping.html">Java Functional Mapping</a><=
+/li><li><a href=3D"https://codingbat.com/doc/java-functional-filtering.html=
+">Java Functional Filtering</a></li></ul><p style=3D"max-width:800px"></p><=
+h3>Misc Code Practice</h3><ul><li><a href=3D"https://codingbat.com/doc/prac=
+tice/code-badges.html">Code Badges</a></li><li><a href=3D"https://codingbat=
+.com/doc/practice/mod-introduction.html">Introduction to Mod</a> (video)</l=
+i><li><a href=3D"https://codingbat.com/doc/practice/makebricks-introduction=
+.html">MakeBricks problem and solution</a> (video x 2)</li><li><a href=3D"h=
+ttps://codingbat.com/doc/practice/fizzbuzz-code.html">FizzBuzz the famous</=
+a> code interview question (video)</li></ul><p><font color=3D"gray">Difficu=
+lty: 215.0</font>
+</p><p></p><p style=3D"font-size:x-small;">Copyright <a style=3D"font-size:=
+x-small;" href=3D"http://www-cs-faculty.stanford.edu/~nick">Nick Parlante</=
+a> 2017 - <a style=3D"font-size:x-small;" href=3D"https://codingbat.com/pri=
+vacy.html">privacy</a>
+</p></div></div></div><span id=3D"PING_CONTENT_DLS_POPUP" style=3D"display:=
+ none;"></span><div style=3D"background-color: transparent; border: none; b=
+ottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; positio=
+n: fixed; right: 15px; z-index: 2147483647;"><template shadowmode=3D"closed=
+"><div class=3D"dls__container">
+  <div class=3D"shield" style=3D"background: transparent; opacity: 0.1; dis=
+play: none;">
+    <div class=3D"shield__circle" style=3D"opacity: 1;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/mcafee_logo_white.svg?secret=3Dsek0rn" x-mcsrc=3D"" id=3D"d=
+ls_ballon_icon" x-mcsrcparsed=3D"true">
+    </div>
+    <div class=3D"dls__popup__expanded" style=3D"opacity: 0;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/download_scan_icon.svg?secret=3Dsek0rn" x-mcsrc=3D"" class=
+=3D"dls__icon" x-mcsrcparsed=3D"true">
+      <div class=3D"content">
+        <div class=3D"content__images">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/mcafee_logo_red.svg?secret=3Dsek0rn" x-mcsrc=3D"" id=3D=
+"dls_mcafee_logo" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/seperator_line.svg?secret=3Dsek0rn" x-mcsrc=3D"" class=
+=3D"seperator__line" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/webadvisor.svg?secret=3Dsek0rn" x-mcsrc=3D"" x-mcsrcpar=
+sed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/close-outline.svg?secret=3Dsek0rn" x-mcsrc=3D"" id=3D"d=
+ls_close_icon" x-mcsrcparsed=3D"true">
+        </div>
+        <p id=3D"download_scan_popup_expanded_descriptions">Your download's=
+ being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div></template></div></body></html>
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d4c51ffd-0efa-4dd9-bc2d-6c468741665e@mhtml.blink
+
+@charset "utf-8";
+
+.ace_editor { position: relative; overflow: hidden; font: 12px Monaco, Menl=
+o, "Ubuntu Mono", Consolas, source-code-pro, monospace; direction: ltr; }
+
+.ace_scroller { position: absolute; overflow: hidden; top: 0px; bottom: 0px=
+; background-color: inherit; user-select: none; cursor: text; }
+
+.ace_content { position: absolute; box-sizing: border-box; min-width: 100%;=
+ }
+
+.ace_dragging .ace_scroller::before { position: absolute; inset: 0px; conte=
+nt: ""; background: rgba(250, 250, 250, 0.01); z-index: 1000; }
+
+.ace_dragging.ace_dark .ace_scroller::before { background: rgba(0, 0, 0, 0.=
+01); }
+
+.ace_selecting, .ace_selecting * { cursor: text !important; }
+
+.ace_gutter { position: absolute; overflow: hidden; width: auto; top: 0px; =
+bottom: 0px; left: 0px; cursor: default; z-index: 4; user-select: none; }
+
+.ace_gutter-active-line { position: absolute; left: 0px; right: 0px; }
+
+.ace_scroller.ace_scroll-left { box-shadow: rgba(0, 0, 0, 0.4) 17px 0px 16p=
+x -16px inset; }
+
+.ace_gutter-cell { padding-left: 19px; padding-right: 6px; background-repea=
+t: no-repeat; }
+
+.ace_gutter-cell.ace_error { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4w=
+FAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir=
++Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg=
+8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/Q=
+RzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm=
+1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6ej=
+u5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99N=
+fg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24=
+eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78D=
+Pokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMg=
+HFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIO=
+zgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kf=
+R+MMMDGOQAAAABJRU5ErkJggg=3D=3D"); background-repeat: no-repeat; background=
+-position: 2px center; }
+
+.ace_gutter-cell.ace_warning { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAA=
+BPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf//=
+//e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIA=
+AAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neX=
+e5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYE=
+wboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJa=
+UrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLg=
+upWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg=3D=3D"); background-position=
+: 2px center; }
+
+.ace_gutter-cell.ace_info { background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJb=
+WFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDb=
+MegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=
+=3D"); background-position: 2px center; }
+
+.ace_dark .ace_gutter-cell.ace_info { background-image: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIA=
+qKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYM=
+APdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC"); }
+
+.ace_scrollbar { position: absolute; right: 0px; bottom: 0px; z-index: 6; }
+
+.ace_scrollbar-inner { position: absolute; cursor: text; left: 0px; top: 0p=
+x; }
+
+.ace_scrollbar-v { overflow: hidden scroll; top: 0px; }
+
+.ace_scrollbar-h { overflow: scroll hidden; left: 0px; }
+
+.ace_print-margin { position: absolute; height: 100%; }
+
+.ace_text-input { position: absolute; z-index: 0; width: 0.5em; height: 1em=
+; opacity: 0; background: transparent; appearance: none; border: none; resi=
+ze: none; outline: none; overflow: hidden; font: inherit; padding: 0px 1px;=
+ margin: 0px -1px; text-indent: -1em; user-select: text; white-space: pre !=
+important; }
+
+.ace_text-input.ace_composition { background: inherit; color: inherit; z-in=
+dex: 1000; opacity: 1; text-indent: 0px; }
+
+.ace_layer { z-index: 1; position: absolute; overflow: hidden; overflow-wra=
+p: normal; white-space: pre; height: 100%; width: 100%; box-sizing: border-=
+box; pointer-events: none; }
+
+.ace_gutter-layer { position: relative; width: auto; text-align: right; poi=
+nter-events: auto; }
+
+.ace_text-layer { font: inherit !important; }
+
+.ace_cjk { display: inline-block; text-align: center; }
+
+.ace_cursor-layer { z-index: 4; }
+
+.ace_cursor { z-index: 4; position: absolute; box-sizing: border-box; borde=
+r-left: 2px solid; transform: translateZ(0px); }
+
+.ace_slim-cursors .ace_cursor { border-left-width: 1px; }
+
+.ace_overwrite-cursors .ace_cursor { border-left-width: 0px; border-bottom:=
+ 1px solid; }
+
+.ace_hidden-cursors .ace_cursor { opacity: 0.2; }
+
+.ace_smooth-blinking .ace_cursor { transition: opacity 0.18s; }
+
+.ace_editor.ace_multiselect .ace_cursor { border-left-width: 1px; }
+
+.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack { position: absol=
+ute; z-index: 3; }
+
+.ace_marker-layer .ace_selection { position: absolute; z-index: 5; }
+
+.ace_marker-layer .ace_bracket { position: absolute; z-index: 6; }
+
+.ace_marker-layer .ace_active-line { position: absolute; z-index: 2; }
+
+.ace_marker-layer .ace_selected-word { position: absolute; z-index: 4; box-=
+sizing: border-box; }
+
+.ace_line .ace_fold { box-sizing: border-box; display: inline-block; height=
+: 11px; margin-top: -2px; vertical-align: middle; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHR=
+Tb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSok=
+D8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErI=
+H0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqN=
+rA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII=3D"), url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZ=
+QBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMC=
+IMAAI3INmXiwf2YAAAAASUVORK5CYII=3D"); background-repeat: no-repeat, repeat-=
+x; background-position: center center, left top; color: transparent; border=
+: 1px solid black; border-radius: 2px; cursor: pointer; pointer-events: aut=
+o; }
+
+.ace_dark .ace_fold { }
+
+.ace_fold:hover { background-image: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR=
+5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQ=
+yMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIa=
+l8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXv=
+gnYAAAAASUVORK5CYII=3D"), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUg=
+AAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA=
+CBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC"); =
+}
+
+.ace_tooltip { background-color: rgb(255, 255, 255); background-image: line=
+ar-gradient(transparent, rgba(0, 0, 0, 0.1)); border: 1px solid gray; borde=
+r-radius: 1px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px; color: black; ma=
+x-width: 100%; padding: 3px 4px; position: fixed; z-index: 999999; box-sizi=
+ng: border-box; cursor: default; white-space: pre; overflow-wrap: break-wor=
+d; line-height: normal; font-style: normal; font-weight: normal; letter-spa=
+cing: normal; pointer-events: none; }
+
+.ace_folding-enabled > .ace_gutter-cell { padding-right: 13px; }
+
+.ace_fold-widget { box-sizing: border-box; margin: 0px -12px 0px 1px; displ=
+ay: none; width: 11px; vertical-align: top; background-image: url("data:ima=
+ge/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKs=
+Q0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJ=
+RU5ErkJggg=3D=3D"); background-repeat: no-repeat; background-position: cent=
+er center; border-radius: 3px; border: 1px solid transparent; cursor: point=
+er; }
+
+.ace_folding-enabled .ace_fold-widget { display: inline-block; }
+
+.ace_fold-widget.ace_end { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI=
+7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg=3D=3D"=
+); }
+
+.ace_fold-widget.ace_closed { background-image: url("data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4=
+EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQm=
+CCXA=3D=3D"); }
+
+.ace_fold-widget:hover { border: 1px solid rgba(0, 0, 0, 0.3); background-c=
+olor: rgba(255, 255, 255, 0.2); box-shadow: rgba(255, 255, 255, 0.7) 0px 1p=
+x 1px; }
+
+.ace_fold-widget:active { border: 1px solid rgba(0, 0, 0, 0.4); background-=
+color: rgba(0, 0, 0, 0.05); box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1p=
+x; }
+
+.ace_dark .ace_fold-widget { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaL=
+LAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC"); }
+
+.ace_dark .ace_fold-widget.ace_end { background-image: url("data:image/png;=
+base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7=
+wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget.ace_closed { background-image: url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/A=
+xAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget:hover { box-shadow: rgba(255, 255, 255, 0.2) 0px=
+ 1px 1px; background-color: rgba(255, 255, 255, 0.1); }
+
+.ace_dark .ace_fold-widget:active { box-shadow: rgba(255, 255, 255, 0.2) 0p=
+x 1px 1px; }
+
+.ace_fold-widget.ace_invalid { background-color: rgb(255, 180, 180); border=
+-color: rgb(222, 85, 85); }
+
+.ace_fade-fold-widgets .ace_fold-widget { transition: opacity 0.4s 0.05s; o=
+pacity: 0; }
+
+.ace_fade-fold-widgets:hover .ace_fold-widget { transition: opacity 0.05s 0=
+.05s; opacity: 1; }
+
+.ace_underline { text-decoration: underline; }
+
+.ace_bold { font-weight: bold; }
+
+.ace_nobold .ace_bold { font-weight: normal; }
+
+.ace_italic { font-style: italic; }
+
+.ace_error-marker { background-color: rgba(255, 0, 0, 0.2); position: absol=
+ute; z-index: 9; }
+
+.ace_highlight-marker { background-color: rgba(255, 255, 0, 0.2); position:=
+ absolute; z-index: 8; }
+
+.ace_br1 { border-top-left-radius: 3px; }
+
+.ace_br2 { border-top-right-radius: 3px; }
+
+.ace_br3 { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+
+.ace_br4 { border-bottom-right-radius: 3px; }
+
+.ace_br5 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br6 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br7 { border-top-left-radius: 3px; border-top-right-radius: 3px; borde=
+r-bottom-right-radius: 3px; }
+
+.ace_br8 { border-bottom-left-radius: 3px; }
+
+.ace_br9 { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br10 { border-top-right-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br11 { border-top-left-radius: 3px; border-top-right-radius: 3px; bord=
+er-bottom-left-radius: 3px; }
+
+.ace_br12 { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px=
+; }
+
+.ace_br13 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; b=
+order-bottom-left-radius: 3px; }
+
+.ace_br14 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; =
+border-bottom-left-radius: 3px; }
+
+.ace_br15 { border-radius: 3px; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-15392e78-3847-4a4f-9971-b32ce07e5b24@mhtml.blink
+
+@charset "utf-8";
+
+.ace-tm .ace_gutter { background: rgb(240, 240, 240); color: rgb(51, 51, 51=
+); }
+
+.ace-tm .ace_print-margin { width: 1px; background: rgb(232, 232, 232); }
+
+.ace-tm .ace_fold { background-color: rgb(107, 114, 230); }
+
+.ace-tm { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-tm .ace_cursor { color: black; }
+
+.ace-tm .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-tm .ace_storage, .ace-tm .ace_keyword { color: blue; }
+
+.ace-tm .ace_constant { color: rgb(197, 6, 11); }
+
+.ace-tm .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-tm .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-tm .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_invalid { background-color: rgba(255, 0, 0, 0.1); color: red; =
+}
+
+.ace-tm .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-tm .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_support.ace_type, .ace-tm .ace_support.ace_class { color: rgb(=
+109, 121, 222); }
+
+.ace-tm .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-tm .ace_string { color: rgb(3, 106, 7); }
+
+.ace-tm .ace_comment { color: rgb(76, 136, 107); }
+
+.ace-tm .ace_comment.ace_doc { color: rgb(0, 102, 255); }
+
+.ace-tm .ace_comment.ace_doc.ace_tag { color: rgb(128, 159, 191); }
+
+.ace-tm .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-tm .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-tm .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-tm .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-tm .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-tm .ace_list { color: rgb(185, 6, 144); }
+
+.ace-tm .ace_meta.ace_tag { color: rgb(0, 22, 142); }
+
+.ace-tm .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-tm .ace_marker-layer .ace_selection { background: rgb(181, 213, 255); =
+}
+
+.ace-tm.ace_multiselect .ace_selection.ace_start { box-shadow: white 0px 0p=
+x 3px 0px; }
+
+.ace-tm .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-tm .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); }
+
+.ace-tm .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; border:=
+ 1px solid rgb(192, 192, 192); }
+
+.ace-tm .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, 0.07=
+); }
+
+.ace-tm .ace_gutter-active-line { background-color: rgb(220, 220, 220); }
+
+.ace-tm .ace_marker-layer .ace_selected-word { background: rgb(250, 250, 25=
+5); border: 1px solid rgb(200, 200, 250); }
+
+.ace-tm .ace_indent-guide { background: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w1=
+1/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-59762269-930e-4fbf-945c-7d78397c0f7c@mhtml.blink
+
+@charset "utf-8";
+
+.error_widget_wrapper { background: inherit; color: inherit; border: none; =
+}
+
+.error_widget { border-top: 2px solid; border-bottom: 2px solid; margin: 5p=
+x 0px; padding: 10px 40px; white-space: pre-wrap; }
+
+.error_widget.ace_error, .error_widget_arrow.ace_error { border-color: rgb(=
+255, 90, 90); }
+
+.error_widget.ace_warning, .error_widget_arrow.ace_warning { border-color: =
+rgb(241, 216, 23); }
+
+.error_widget.ace_info, .error_widget_arrow.ace_info { border-color: rgb(90=
+, 90, 90); }
+
+.error_widget.ace_ok, .error_widget_arrow.ace_ok { border-color: rgb(90, 17=
+0, 90); }
+
+.error_widget_arrow { position: absolute; border-width: 5px; border-style: =
+solid; border-bottom-color: initial; border-image: initial; top: -5px; bord=
+er-top-color: transparent !important; border-right-color: transparent !impo=
+rtant; border-left-color: transparent !important; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2aa6e9a4-ae81-4f1c-a65d-63e52e2a678f@mhtml.blink
+
+@charset "utf-8";
+
+.ace-chrome .ace_gutter { background: rgb(235, 235, 235); color: rgb(51, 51=
+, 51); overflow: hidden; }
+
+.ace-chrome .ace_print-margin { width: 1px; background: rgb(232, 232, 232);=
+ }
+
+.ace-chrome { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-chrome .ace_cursor { color: black; }
+
+.ace-chrome .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-chrome .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-chrome .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-chrome .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_invalid { background-color: rgb(153, 0, 0); color: white; =
+}
+
+.ace-chrome .ace_fold { }
+
+.ace-chrome .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-chrome .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_support.ace_type, .ace-chrome .ace_support.ace_class.ace-c=
+hrome .ace_support.ace_other { color: rgb(109, 121, 222); }
+
+.ace-chrome .ace_variable.ace_parameter { font-style: italic; color: rgb(25=
+3, 151, 31); }
+
+.ace-chrome .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-chrome .ace_comment { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc.ace_tag { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-chrome .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-chrome .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-chrome .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-chrome .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-chrome .ace_list { color: rgb(185, 6, 144); }
+
+.ace-chrome .ace_marker-layer .ace_selection { background: rgb(181, 213, 25=
+5); }
+
+.ace-chrome .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-chrome .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); =
+}
+
+.ace-chrome .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; bor=
+der: 1px solid rgb(192, 192, 192); }
+
+.ace-chrome .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, =
+0.07); }
+
+.ace-chrome .ace_gutter-active-line { background-color: rgb(220, 220, 220);=
+ }
+
+.ace-chrome .ace_marker-layer .ace_selected-word { background: rgb(250, 250=
+, 255); border: 1px solid rgb(200, 200, 250); }
+
+.ace-chrome .ace_storage, .ace-chrome .ace_keyword, .ace-chrome .ace_meta.a=
+ce_tag { color: rgb(147, 15, 128); }
+
+.ace-chrome .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-chrome .ace_string { color: rgb(26, 26, 166); }
+
+.ace-chrome .ace_entity.ace_other.ace_attribute-name { color: rgb(153, 68, =
+9); }
+
+.ace-chrome .ace_indent-guide { background: url("data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd=
+1/w11/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/codingbat.css
+
+@charset "utf-8";
+
+html, body { font-size: small; font-family: verdana, arial, helvetica, sans=
+-serif; }
+
+html, body { text-size-adjust: none; }
+
+pre, code { font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-cod=
+e-pro, monospace; }
+
+p { max-width: 800px; }
+
+p.max { max-width: 800px; }
+
+p.max2 { max-width: 600px; }
+
+a { text-decoration: none; }
+
+:link { color: rgb(0, 0, 221); }
+
+:visited { color: rgb(85, 26, 139); }
+
+.coding { border: 2px solid gray; font-family: monospace; font-size: medium=
+; }
+
+.lefty { float: left; padding-right: 40px; }
+
+.righty { float: left; }
+
+.parenty::after { content: ""; clear: both; display: table; }
+
+div.floatleft { float: left; }
+
+div.floatclear { clear: both; }
+
+div.summ { max-width: 300px; margin: 15px; padding: 10px; border: 1px solid=
+ gray; border-radius: 1em; }
+
+div.indent { margin-left: 15px; margin-top: 15px; }
+
+td { vertical-align: top; }
+
+.h1 { font-size: 300%; }
+
+.h2 { font-size: 166%; }
+
+.h3 { font-size: 120%; }
+
+span.no { color: red; }
+
+td.no { min-width: 22px; background-color: red; }
+
+td.ok { min-width: 22px; background-color: green; }
+
+code.spaceright { margin-right: 12px; }
+
+p.indent { margin-left: 25px; }
+
+button.go { width: 200px; height: 30px; background-color: rgb(241, 241, 241=
+); font-size: 112%; font-weight: bold; border-radius: 6px; }
+
+button.gray { background-color: rgb(241, 241, 241); border-radius: 6px; }
+
+button.go { font-weight: bold; border-radius: 8px; background: linear-gradi=
+ent(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)) rgb(187, 187, 187);=
+ border-style: solid; border-width: 1px; border-color: rgb(119, 119, 119); =
+color: rgb(51, 51, 51); text-align: center; text-shadow: rgb(216, 216, 216)=
+ 1px 1px 0px; width: 200px; height: 35px; font-size: 125%; }
+
+button.go:hover { background-color: rgb(170, 170, 170); color: rgb(17, 17, =
+17); border-color: rgb(68, 68, 68); transition-duration: 0.1s; }
+
+button.go:active { background: rgb(72, 72, 72); }
+
+button.plain { }
+
+button.plain:hover { }
+
+div.minh { min-height: 32px; }
+
+div.pretab { min-height: 9px; }
+
+div.tabc { min-width: 100vw; clear: both; }
+
+nav ul { list-style: none; padding: 0px; margin: 0px; }
+
+nav li { display: inline; border-style: solid; border-color: initial; borde=
+r-image: initial; border-width: 1px 1px 0px; margin: 0px 25px 0px 6px; }
+
+nav li a { padding: 0px 40px; }
+
+div.tabin { border-top: 1px solid; clear: both; }
+
+#content { border-top: 1px solid; clear: both; }
+
+#selected { position: relative; top: 1px; background: white; }
+
+#ace_div { width: 600px; height: 375px; border: 2px solid gray; }
+
+table.out { border-collapse: collapse; }
+
+table.out td { border: 2px solid black; padding: 4px; }
+
+table.clean { border-collapse: collapse; }
+
+td.clean { border: 1px solid black; padding: 6px; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiGyp8=
+kv8JHgFVrJJLufntAKPY.woff2") format("woff2"); unicode-range: U+100-2AF, U+3=
+04, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C=
+0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiGyp8=
+kv8JHgFVrJJLucHtA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+=
+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, =
+U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmg1hVGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmg1hVF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmr19VGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmr19VF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLm111VGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLm111VF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8=
+kv8JHgFVrJJnecmNE.woff2") format("woff2"); unicode-range: U+100-2AF, U+304,=
+ U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, =
+U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8=
+kv8JHgFVrJJfecg.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+15=
+2-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+=
+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLGT9Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLGT9Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLEj6Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLEj6Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLDD4Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLDD4Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://codingbat.com/c2big.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/7QAcUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAD/2wBDAAIB
+AQIBAQICAQICAgICAwUDAwMDAwYEBAMFBwYHBwcGBgYHCAsJBwgKCAYGCQ0JCgsLDAwMBwkNDg0M
+DgsMDAv/2wBDAQICAgMCAwUDAwULCAYICwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsL
+CwsLCwsLCwsLCwsLCwsLCwv/wAARCAAyADADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAA
+AAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEI
+I0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlq
+c3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW
+19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL
+/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLR
+ChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn
+6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiivgf/guP/wAFR9T/AGOfh9pXwp/ZWaPU
+f2gPizFJbaBErAr4as+Vm1e5zkKsYDiMNwzqThhGynHEYilhKU69aSjCKbbeiSWrbfZIwxWKo4Kj
+PEYiajTgnKUm7JJK7bfRJbnzT/wXP/by1P8AbK+L2o/sh/sr6vcWPhjS9r/F/wAT2LDMER5TRLeT
+kebIR++9MbDkLMhX/gk9/wAFadd/Yu8caD+zj/wUj143nha8K2Pw3+Jd84SK4jUAR6XqspOI5kG1
+Y5mOGAAY9GrwP9nX4C6X+zb8MY9F0q5lv7yaR9Q1nV7ty1zq97J8011PIxJJY5+8TgAc9Sek/wCC
+cf7FUf8AwWg/acbxh8U7M3X7L/wh1PbZ2s0ebf4i65GMHOf9ZZQBvm6q+4LyHfZ+DcJ+ImccacWV
+IZbBf2dCNpcytZa2nfdTk9o7cu6unJfzNwP4rZ/4hccVaeU01/ZVOLUuZWtFX5al7XVScvhhtyXT
+V4uS/bX4+/H7wd+y78Idd8e/HzX7Dwx4S8N2xutQ1C7fCRKOAoAyzuzEKqKCzswVQSQKyv2U/wBr
+HwB+238DtH+I37M3iK28TeEtcDi3u4keJ0dGKvFLFIA8UisCCjqD0PQgn8KP2iP2pvFf/BZb9rLx
+HL+0jY6j4K+G/wAFNdbT9K+FN/mO+XUEyPt2uRDh5PvqkYLIuGQEje02z+yv+1vP/wAEUf2r7rxj
+NHcv+zd8V71I/HGm2sLyjwhqbfLFq1tDGCfLfhJUQZI4AJWJa/QJeI+VR4j/ANW5Nqrb4npHndmo
+a9WndPZuyV2z9Rl4s5JDiz/VGTarWtzPSPtHZqmr63cXdPZu0U22fsR/wUk/4KC+D/8Agmp+y1rP
+xH+K7G8uYyLHQdFhb/S/EWpyA+RZwLySWIJZgDsRXbB24P4t/AzwN4v8X+P/ABR8Z/2uLpdW+MXx
+NlF1qj9YtBtOPI0y1BJ8uKJAikAnJQAltu42/Hfx88Q/8FZv2sh8e/i3b3mn/DXwq81l8J/DN0m0
+QWxYB9XuI+huJygZf7oCgEhEY1/2ifi14h0PUfDfw+/Zy0v/AIST4v8AxMu/7J8K6SuDskP37yfP
+CwQrl2ZsL8pJO1WI/IfFPi/FcW5jDg/IfevK1RraUl9m/wDLC15vuv7rv+D+NPHeN45zWnwFwz79
+5KNVp6SkteS/SFO3NUfdW2i7n/Cq/FX/AAUs/aitv2av2c76bS9NEKX/AMTfFNuu4eG9JJGbWNun
+2q4HyKh7NyNokK/vd8BvgX4W/Zm+DXhvwB8E9Jt9D8K+E7GPTtNsoRxFEg6serOxJZnOSzMzEkkm
+vFf+CVH/AATa8P8A/BMr9l608IaNcJrvjLWpf7W8ZeJXQ/aPEOqSDMsrM3zeUpJSND91eT8zOW+m
+K/cOCuEcLwXlkMBh9Zbzl1nLq/TpFdF53b/o7w84EwXh7k9PLMLrP4qk7azm936dIrpFLd3b/Kr/
+AIL3/wDBO3WvCniZP2uf2ONIlvfGXhSzFv8AETw9aLj/AIS/Q4wN1wFHW6tUXcG6tGg6+Uqv8v8A
+g/xZ4W/aO+EtnquiCx8QeFvE9mH8u4hWWKeNuGjljYEZBBVkI4Kkdq/fR0EiFZAGVhggjIIr8G/+
+Ckf7II/4I0ftVyeMPA1vJB+zF8Y9TZ540Qm3+HmvSZYrgD93Z3GCVxwu0rgCNd/574w+HsuIsN/b
+GWx/2uktUt5xWtlb7Ud49Wrx1fLb8s8e/CuXFeEWfZTD/bqC1Ud6kFrZW1c4bxtq1eOr5bYnxt+M
+nh39mX4RX3iTxjtttL0iJYba0t1AkuZMbYraBBxuYgKAOAAT0Br7f/4IQ/8ABMPXPgvp+pftE/tp
+6aq/HL4m2oW006YE/wDCDaK2Gh0+JW+5M42vKcBgcIcHzC/zb/wRw/Yfuf8Agpj+0RZftIftBaZO
+nwV+HN+6fDLQ7yPaniXUYmKvrU8bD5oonXEQPV17eWwk/bOuvwj8PP8AVPB/2hjo/wC11VrfeEXr
+y+r3n52XS77vAvwqXBGA/tTMof7fXWt96cHqof4no5+do/Zuyiiiv2Q/fgr5W/4LiaLZ69/wSG/a
+Kh1y0tr2GLwNqNyiTxLIqSxRGSOQBgQGR0R1bqrKCMECiigD2n9k/RLLw3+y58N7Dw7aWthYWfhf
+TYoLa2iWKGBBaxgKiKAFA9AMV6BRRQAUUUUAf//Z
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=sek0rn
+
+<svg width=3D"34" height=3D"34" viewBox=3D"0 0 34 34" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M9.2402 11.5717V23.1982L16.5771 26.5917V32.2021L4.14429 26.4497V=
+3.60645L16.5771 9.35372V14.9634L9.2402 11.5717Z" fill=3D"white"/>
+<path d=3D"M23.914 11.5722V23.1986L16.5771 26.5917V32.2021L29.0099 26.4501V=
+3.60688L16.5771 9.35372V14.9634L23.914 11.5722Z" fill=3D"white"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=sek0rn
+
+<svg width=3D"73" height=3D"65" viewBox=3D"0 0 73 65" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<rect width=3D"72.7844" height=3D"65" fill=3D"white"/>
+<path d=3D"M62.6649 32.891C62.6649 47.186 51.0766 58.7743 36.7817 58.7743C2=
+2.4868 58.7743 10.8984 47.186 10.8984 32.891C10.8984 18.5961 22.4868 7.0078=
+1 36.7817 7.00781C51.0766 7.00781 62.6649 18.5961 62.6649 32.891ZM17.1182 3=
+2.891C17.1182 43.7509 25.9218 52.5545 36.7817 52.5545C47.6415 52.5545 56.44=
+52 43.7509 56.4452 32.891C56.4452 22.0312 47.6415 13.2276 36.7817 13.2276C2=
+5.9218 13.2276 17.1182 22.0312 17.1182 32.891Z" fill=3D"#4258FF"/>
+<circle cx=3D"36.9763" cy=3D"55.6605" r=3D"3.11377" fill=3D"#4258FF"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M42.0805 31.351L37.6=
+252 35.8064L37.6249 23.356L35.549 23.356L35.5493 35.8071L31.0933 31.351L29.=
+6255 32.8189L35.1191 38.3125C35.9297 39.1232 37.2441 39.1232 38.0548 38.312=
+5L43.5484 32.8189L42.0805 31.351ZM27.2456 43.0765H45.9282V41.0007H27.2456V4=
+3.0765Z" fill=3D"#4258FF"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=sek0rn
+
+<svg width=3D"76" height=3D"16" viewBox=3D"0 0 76 16" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M37.7977 9.90788L35.=
+8231 8.69787L35.6761 8.93505C35.226 9.6643 34.6111 10.034 33.8486 10.0333C3=
+2.5424 10.0328 31.5581 9.01666 31.5588 7.66935C31.5594 6.32276 32.5451 5.30=
+793 33.8511 5.30848C34.6244 5.30921 35.2051 5.65942 35.6791 6.41113L35.8265=
+ 6.64466L37.8105 5.43209L37.6391 5.1761C36.6914 3.76032 35.4527 3.07214 33.=
+8525 3.07105C30.8275 3.06958 29.1939 5.4383 29.1929 7.66788C29.1916 9.89783=
+ 30.8224 12.2687 33.8472 12.2702C35.3884 12.2711 36.8426 11.4628 37.6428 10=
+.1604L37.7977 9.90788Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M43.3073 4.8923L44.4=
+124 7.75346L42.187 7.75219L43.3073 4.8923ZM37.6988 12.2726L40.4293 12.274L4=
+1.2405 10.1933L45.3379 10.1953L46.1468 12.2773L48.889 12.2792L43.9977 0.082=
+4538L41.5624 0.0808105L42.211 1.69781L37.6988 12.2726Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M50.0191 12.2794L52.=
+415 12.2809L52.418 6.80706L53.9803 6.80815L53.9815 4.51174L52.4193 4.51083L=
+52.4198 3.42552C52.42 2.95974 52.7224 2.46511 53.283 2.46547C53.5907 2.4656=
+6 53.7766 2.51989 53.9619 2.60168L54.2285 2.72018L55.224 0.479462L54.9371 0=
+.358589C54.492 0.17034 53.8717 0.102783 53.4392 0.102418C52.3529 0.10187 51=
+.4573 0.468142 50.8487 1.16143C50.3175 1.76671 50.0244 2.60862 50.0237 3.53=
+124L50.0232 4.50937L48.9654 4.50882L48.9642 6.80541L50.0221 6.80559L50.0191=
+ 12.2794Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M17.8979 0.0106201V1=
+2.261L20.5011 12.2628L20.505 5.25912L23.0282 7.19748L25.5533 5.25912V12.265=
+8L28.1526 12.267L28.1594 0.0106201L23.0298 4.00748L17.8979 0.0106201Z" fill=
+=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M57.2864 6.56615C57.=
+5992 5.73045 58.2739 5.24257 59.1459 5.24294C60.0272 5.24348 60.7151 5.7213=
+2 61.0798 6.56834L57.2864 6.56615ZM59.376 3.11328C56.3604 3.11164 54.7314 5=
+.47378 54.73 7.69661C54.7291 9.92017 56.3553 12.2834 59.3711 12.2852H59.372=
+5H59.3744C60.7573 12.2699 62.0541 11.6201 63.0579 10.4482L61.1038 9.34922C6=
+0.6029 9.87836 59.9943 10.1566 59.3229 10.1563C58.3388 10.1555 57.4664 9.47=
+94 57.2381 8.59494L63.7543 8.59841L63.7547 7.98839C63.7566 4.62767 61.1954 =
+3.11438 59.376 3.11328Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M67.0804 6.57129C67.=
+3931 5.73558 68.0673 5.24752 68.9399 5.24807C69.8212 5.24862 70.5091 5.7264=
+5 70.8738 6.57348L67.0804 6.57129ZM69.1698 3.11878C66.1538 3.11695 64.5253 =
+5.47909 64.5239 7.7021C64.5229 9.92566 66.1487 12.2889 69.1648 12.2907H69.1=
+662H69.1678C70.5512 12.2754 71.8481 11.6252 72.8517 10.4537L70.8976 9.35471=
+C70.3963 9.88385 69.7881 10.1621 69.1168 10.1617C68.1325 10.161 67.2599 9.4=
+8489 67.0319 8.60044L73.5481 8.60391L73.5486 7.99388C73.5506 4.63298 70.989=
+1 3.11987 69.1698 3.11878Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M73.2422 2.70959H74.=
+2565V2.90496H73.8581V4.00141H73.6389V2.90496H73.2422V2.70959Z" fill=3D"#C01=
+818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M74.3988 2.70959H74.=
+7076L75.0532 3.72113H75.0568L75.3937 2.70959H75.6989V4.00141H75.4902V3.0044=
+7H75.4865L75.1394 4.00141H74.9585L74.6109 3.00447H74.6076V4.00141H74.3988V2=
+.70959Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M2.63757 10.4604V4.2=
+526L6.4351 6.06369V3.0687L0 0.00012207V12.1965L6.4351 15.2676V12.2722L2.637=
+57 10.4604Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M10.2328 10.4603V4.2=
+5248L6.4353 6.06357V3.06858L12.8704 0V12.1963L6.4353 15.2675V12.2721L10.232=
+8 10.4603Z" fill=3D"#C01818"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=sek0rn
+
+<svg width=3D"1" height=3D"13" viewBox=3D"0 0 1 13" fill=3D"none" xmlns=3D"=
+http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M0.571726 11.6904V0.=
+875681V11.6904Z" fill=3D"#FF1C1C"/>
+<path d=3D"M0.571726 11.6904V0.875681" stroke=3D"#FF1C1C" stroke-width=3D"0=
+.866667" stroke-linecap=3D"square"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=sek0rn
+
+<svg width=3D"64" height=3D"10" viewBox=3D"0 0 64 10" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M8.12091 9.7761H7.18=
+323L5.53671 4.1395C5.45857 3.89001 5.37113 3.57527 5.27438 3.19527C5.17764 =
+2.81527 5.1274 2.5869 5.12368 2.51013C5.04182 3.01679 4.91159 3.57143 4.732=
+98 4.17405L3.13669 9.7761H2.19901L0.027832 1.35863H1.03249L2.3218 6.55766C2=
+.50041 7.28695 2.63064 7.94713 2.7125 8.53824C2.81297 7.83582 2.96181 7.148=
+76 3.15902 6.47705L4.62135 1.35863H5.62601L7.16091 6.52311C7.33951 7.11806 =
+7.49021 7.78976 7.613 8.53824C7.6837 7.99319 7.81765 7.32917 8.01486 6.5461=
+4L9.29859 1.35863H10.3033L8.12091 9.7761ZM13.7973 9.89105C12.8931 9.89105 1=
+2.1796 9.60702 11.6568 9.03894C11.134 8.47086 10.8726 7.68209 10.8726 6.672=
+6C10.8726 5.65544 11.1154 4.84748 11.601 4.24869C12.0866 3.64991 12.7387 3.=
+35052 13.5573 3.35052C14.3238 3.35052 14.9303 3.61057 15.3768 4.13066C15.82=
+33 4.65076 16.0466 5.33686 16.0466 6.18897V6.79351H11.8326C11.8512 7.53431 =
+12.0326 8.09662 12.3768 8.48046C12.721 8.8643 13.2056 9.05621 13.8308 9.056=
+21C14.4894 9.05621 15.1405 8.91419 15.7843 8.63016V9.48227C15.4568 9.62813 =
+15.147 9.73272 14.855 9.79605C14.5629 9.85938 14.2103 9.89105 13.7973 9.891=
+05ZM13.5459 4.15117C13.0548 4.15117 12.6632 4.31622 12.3711 4.64632C12.079 =
+4.97642 11.9069 5.43317 11.8548 6.0166H15.0529C15.0529 5.41398 14.9227 4.95=
+243 14.6622 4.63192C14.4018 4.31142 14.0297 4.15117 13.5459 4.15117ZM20.472=
+6 3.3622C21.2763 3.3622 21.9005 3.64528 22.3452 4.21143C22.7898 4.77759 23.=
+0122 5.57884 23.0122 6.61519C23.0122 7.65155 22.788 8.45663 22.3396 9.03047=
+C21.8912 9.6043 21.2689 9.89121 20.4726 9.89121C20.0745 9.89121 19.7107 9.8=
+1541 19.3814 9.66379C19.0521 9.51218 18.7759 9.279 18.5526 8.96426H18.4856L=
+18.2903 9.77606H17.6261V0.817383H18.5526V2.99372C18.5526 3.48119 18.5377 3.=
+91876 18.5079 4.30643H18.5526C18.9842 3.67694 19.6242 3.3622 20.4726 3.3622=
+ZM20.3389 4.1626C19.7063 4.1626 19.2505 4.34971 18.9714 4.72395C18.6924 5.0=
+9819 18.5528 5.72863 18.5528 6.61529C18.5528 7.50196 18.6961 8.13623 18.982=
+6 8.51815C19.2691 8.90007 19.7287 9.09102 20.3612 9.09102C20.9305 9.09102 2=
+1.3547 8.87704 21.6338 8.44906C21.9129 8.02108 22.0524 7.406 22.0524 6.6037=
+8C22.0524 5.78237 21.9129 5.17016 21.6338 4.76714C21.3547 4.36411 20.9231 4=
+.1626 20.3389 4.1626ZM29.8995 9.77594L28.8837 7.0987H25.613L24.6083 9.77594=
+H23.6483L26.8744 1.32393H27.6725L30.8819 9.77594H29.8995ZM28.5879 6.21798L2=
+7.6391 3.60982C27.5163 3.27972 27.3897 2.87478 27.2595 2.39499C27.1776 2.76=
+347 27.0604 3.16841 26.9079 3.60982L25.9479 6.21798H28.5879ZM36.0283 8.9297=
+1H35.978C35.5501 9.57072 34.9101 9.89121 34.058 9.89121C33.258 9.89121 32.6=
+357 9.6091 32.191 9.04486C31.7464 8.48062 31.5241 7.67842 31.5241 6.63822C3=
+1.5241 5.59803 31.7473 4.79007 32.1938 4.21431C32.6403 3.63856 33.2617 3.35=
+069 34.058 3.35069C34.8878 3.35069 35.5241 3.66159 35.9669 4.2834H36.0394L3=
+6.0004 3.82856L35.978 3.38523V0.817383H36.9045V9.77606H36.1511L36.0283 8.92=
+971ZM34.175 9.09111C34.8076 9.09111 35.2662 8.91359 35.5508 8.55855C35.8355=
+ 8.2035 35.9778 7.63063 35.9778 6.83993V6.63842C35.9778 5.74408 35.8336 5.1=
+0596 35.5452 4.72404C35.2569 4.34213 34.7964 4.15117 34.1638 4.15117C33.620=
+6 4.15117 33.2048 4.369 32.9164 4.80465C32.628 5.2403 32.4838 5.85539 32.48=
+38 6.64993C32.4838 7.45599 32.6271 8.06436 32.9136 8.47506C33.2001 8.88577 =
+33.6206 9.09111 34.175 9.09111ZM40.2084 9.77585L37.8865 3.46563H38.88L40.19=
+73 7.208C40.4949 8.08315 40.6698 8.65122 40.7219 8.91223H40.7666C40.8075 8.=
+70879 40.9368 8.28754 41.1545 7.64845C41.3721 7.00937 41.8605 5.61511 42.61=
+96 3.46563H43.6131L41.2912 9.77585H40.2084ZM45.5221 9.77585H44.5956V3.46563=
+H45.5221V9.77585ZM44.5173 1.75582C44.5173 1.53703 44.5694 1.37678 44.6736 1=
+.27507C44.7777 1.17335 44.908 1.12249 45.0642 1.12249C45.2131 1.12249 45.34=
+14 1.17431 45.4494 1.27795C45.5573 1.38158 45.6112 1.54087 45.6112 1.75582C=
+45.6112 1.97077 45.5573 2.13102 45.4494 2.23657C45.3414 2.34213 45.2131 2.3=
+9491 45.0642 2.39491C44.908 2.39491 44.7777 2.34213 44.6736 2.23657C44.5694=
+ 2.13102 44.5173 1.97077 44.5173 1.75582ZM51.4329 8.05441C51.4329 8.64167 5=
+1.2208 9.09459 50.7966 9.41318C50.3724 9.73176 49.7771 9.89105 49.0106 9.89=
+105C48.1994 9.89105 47.5668 9.75863 47.1129 9.49378V8.60713C47.4068 8.76066=
+ 47.7222 8.88157 48.0589 8.96985C48.3957 9.05813 48.7203 9.10227 49.0329 9.=
+10227C49.5166 9.10227 49.8887 9.02263 50.1492 8.86333C50.4096 8.70404 50.53=
+99 8.46127 50.5399 8.13501C50.5399 7.88936 50.4366 7.67921 50.2301 7.50456C=
+50.0236 7.32992 49.6208 7.12361 49.0217 6.88563C48.4524 6.66684 48.0478 6.4=
+7589 47.8078 6.31276C47.5678 6.14963 47.3892 5.96443 47.2719 5.75716C47.154=
+7 5.54989 47.0961 5.30232 47.0961 5.01444C47.0961 4.5001 47.2989 4.0942 47.=
+7045 3.79673C48.1101 3.49925 48.6664 3.35052 49.3733 3.35052C50.032 3.35052=
+ 50.6757 3.4887 51.3045 3.76506L50.9752 4.54233C50.3613 4.28132 49.805 4.15=
+081 49.3064 4.15081C48.8673 4.15081 48.5361 4.22182 48.3129 4.36384C48.0896=
+ 4.50586 47.978 4.70161 47.978 4.95111C47.978 5.12 48.0199 5.26393 48.1036 =
+5.38292C48.1873 5.50191 48.3222 5.61514 48.5082 5.72261C48.6943 5.83009 49.=
+0515 5.98554 49.5799 6.18897C50.3054 6.4615 50.7957 6.73593 51.0506 7.0123C=
+51.3054 7.28866 51.4329 7.63602 51.4329 8.05441ZM58.2201 6.61503C58.2201 7.=
+64371 57.9689 8.44687 57.4666 9.02455C56.9642 9.60222 56.2703 9.89105 55.38=
+47 9.89105C54.8377 9.89105 54.3521 9.75863 53.9279 9.49378C53.5037 9.22894 =
+53.1763 8.84894 52.9456 8.3538C52.7149 7.85865 52.5995 7.27906 52.5995 6.61=
+503C52.5995 5.58635 52.8488 4.7851 53.3475 4.21127C53.8461 3.63743 54.5382 =
+3.35052 55.4238 3.35052C56.2796 3.35052 56.9596 3.64415 57.4638 4.23142C57.=
+968 4.81869 58.2201 5.61322 58.2201 6.61503ZM53.5593 6.61529C53.5593 7.4213=
+5 53.7156 8.03548 54.0281 8.4577C54.3407 8.87992 54.8002 9.09102 55.4068 9.=
+09102C56.0133 9.09102 56.4738 8.88088 56.7882 8.46058C57.1026 8.04028 57.25=
+98 7.42519 57.2598 6.61529C57.2598 5.81308 57.1026 5.20375 56.7882 4.78729C=
+56.4738 4.37083 56.0096 4.1626 55.3956 4.1626C54.7891 4.1626 54.3314 4.3679=
+5 54.0226 4.77865C53.7137 5.18935 53.5593 5.80156 53.5593 6.61529ZM62.6347 =
+3.35052C62.9063 3.35052 63.15 3.37355 63.3658 3.41961L63.2375 4.30627C62.98=
+44 4.24869 62.7612 4.2199 62.5677 4.2199C62.0728 4.2199 61.6495 4.42717 61.=
+2979 4.84172C60.9463 5.25626 60.7704 5.77251 60.7704 6.39049V9.7759H59.8439=
+V3.46567H60.6086L60.7146 4.63445H60.7593C60.9863 4.22374 61.2598 3.90708 61=
+.5798 3.68446C61.8998 3.46183 62.2514 3.35052 62.6347 3.35052Z" fill=3D"#C0=
+1818"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=sek0rn
+
+<svg width=3D"12" height=3D"12" viewBox=3D"0 0 12 12" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M11.4671 1.1549L10.3122 0L5.73355 4.57865L1.1549 0L0 1.1549L4.57=
+865 5.73355L0 10.3122L1.1549 11.4671L5.73355 6.88845L10.3122 11.4671L11.467=
+1 10.3122L6.88845 5.73355L11.4671 1.1549Z" fill=3D"#6E6E6E"/>
+</svg>
+
+------MultipartBoundary--4R8PK1cuTfjF4aIf57osQO7huFw7YqcY03IdyS5H3K------
