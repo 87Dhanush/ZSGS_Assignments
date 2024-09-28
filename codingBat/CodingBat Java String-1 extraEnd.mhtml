@@ -1,0 +1,847 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://codingbat.com/prob/p108853
+Subject: CodingBat Java String-1 extraEnd
+Date: Thu, 12 Sep 2024 19:27:37 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----"
+
+
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/html
+Content-ID: <frame-0005B7483F60D616C7EA88718ABB767F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/prob/p108853
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-dd726c60-7b09-4622-8556-2778f27b2520@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-3f54d219-34c2-4e3d-9dc7-a468e1=
+b3130d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"ci=
+d:css-cdd60e76-9bdb-4be3-8a4f-229f05407e36@mhtml.blink" /><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-e6542351-dcab-4137-bb40-c0e5a7cf2=
+d08@mhtml.blink" />
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://codingbat.com/co=
+dingbat.css">
+
+
+
+<title>CodingBat Java String-1 extraEnd</title>
+</head>
+<body><div style=3D"float:right;  margin:0px; border: 1px solid lightgray;"=
+><table><tbody><tr><td>dhanushrajcdm2003<br>@gmail.com</td></tr><tr><td>[<a=
+ href=3D"https://codingbat.com/logout">log out</a>]</td></tr></tbody></tabl=
+e></div><div style=3D"float:right"><table><tbody><tr><td valign=3D"top" sty=
+le=3D"text-align:right" colspan=3D"1"><a href=3D"https://codingbat.com/abou=
+t.html">about</a> | <a href=3D"https://codingbat.com/help.html">help</a> | =
+<a href=3D"https://codingbat.com/doc/code-help-videos.html">code help+video=
+s | </a><a href=3D"https://codingbat.com/done?user=3Ddhanushrajcdm2003@gmai=
+l.com&amp;tag=3D382235728">done</a> | <a href=3D"https://codingbat.com/repo=
+rt">report</a> | <a href=3D"https://codingbat.com/pref">prefs</a> </td></tr=
+></tbody></table></div><a href=3D"https://codingbat.com/"><span style=3D"fo=
+nt-size:200%;">CodingBat</span></a> code practice
+<div class=3D"pretab"><p class=3D"max">&nbsp;</p></div><div class=3D"tabc">=
+<nav><ul><li class=3D"h2" id=3D"selected"><a href=3D"https://codingbat.com/=
+java">Java</a></li><li class=3D"h2"><a href=3D"https://codingbat.com/python=
+">Python</a></li></ul></nav><div class=3D"tabin"><div class=3D"indent"><a h=
+ref=3D"https://codingbat.com/java/String-1"><span class=3D"h2">String-1</sp=
+an></a> &gt; <span class=3D"h2">extraEnd</span>
+<br><a href=3D"https://codingbat.com/prob/p184030">prev</a> &nbsp;|&nbsp; <=
+a href=3D"https://codingbat.com/prob/p163411">next</a> &nbsp;|&nbsp; <a rel=
+=3D"nofollow" href=3D"https://codingbat.com/java/String-1?chance=3D1">chanc=
+e</a>
+<p></p><table border=3D"0"><tbody><tr><td valign=3D"top"><div class=3D"minh=
+"><p class=3D"max2">Given a string, return a new string made of 3 copies of=
+ the last 2 chars of the original string. The string length will be at leas=
+t 2.</p></div><br>extraEnd("Hello") =E2=86=92 "lololo"<br>extraEnd("ab") =
+=E2=86=92 "ababab"<br>extraEnd("Hi") =E2=86=92 "HiHiHi"<p><button class=3D"=
+go">Go</button>...Save, Compile, Run (ctrl-enter)</p><form name=3D"codeform=
+"><div id=3D"ace_div" class=3D" ace_editor ace-chrome ace_focus"><textarea =
+class=3D"ace_text-input" wrap=3D"off" autocorrect=3D"off" autocapitalize=3D=
+"off" spellcheck=3D"false" style=3D"opacity: 0; height: 14.6667px; width: 6=
+.59771px; left: 593.402px; top: 14.6667px;"></textarea><div class=3D"ace_gu=
+tter" style=3D"display: none;"><div class=3D"ace_layer ace_gutter-layer ace=
+_folding-enabled" style=3D"margin-top: 0px; height: 387.333px; width: 40px;=
+"><div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">1<span class=
+=3D"ace_fold-widget ace_start ace_open" style=3D"height: 14.6667px;"></span=
+></div><div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">2</div>=
+<div class=3D"ace_gutter-cell " style=3D"height: 14.6667px;">3</div><div cl=
+ass=3D"ace_gutter-cell " style=3D"height: 14.6667px;">4</div></div><div cla=
+ss=3D"ace_gutter-active-line" style=3D"top: 14.6667px; height: 14.6667px;">=
+</div></div><div class=3D"ace_scroller ace_scroll-left" style=3D"left: 0px;=
+ right: 0px; bottom: 17px;"><div class=3D"ace_content" style=3D"margin-top:=
+ 0px; width: 918px; height: 387.333px; margin-left: -318px;"><div class=3D"=
+ace_layer ace_print-margin-layer"><div class=3D"ace_print-margin" style=3D"=
+left: 531.817px; visibility: visible;"></div></div><div class=3D"ace_layer =
+ace_marker-layer"><div class=3D"ace_active-line" style=3D"height:14.6666669=
+84558105px;top:14.666666984558105px;left:0;right:0;"></div></div><div class=
+=3D"ace_layer ace_text-layer" style=3D"padding: 0px 4px;"><div class=3D"ace=
+_line" style=3D"height:14.666666984558105px"><span class=3D"ace_keyword">pu=
+blic</span> <span class=3D"ace_support ace_function">String</span> <span cl=
+ass=3D"ace_identifier">extraEnd</span>(<span class=3D"ace_support ace_funct=
+ion">String</span> <span class=3D"ace_identifier">str</span>) {</div><div c=
+lass=3D"ace_line" style=3D"height: 14.6667px;">  <span class=3D"ace_keyword=
+">return</span> <span class=3D"ace_identifier">str</span>.<span class=3D"ac=
+e_identifier">substring</span>(<span class=3D"ace_identifier">str</span>.<s=
+pan class=3D"ace_identifier">length</span>()<span class=3D"ace_constant ace=
+_numeric">-2</span>,<span class=3D"ace_identifier">str</span>.<span class=
+=3D"ace_identifier">length</span>())<span class=3D"ace_keyword ace_operator=
+">+</span><span class=3D"ace_identifier">str</span>.<span class=3D"ace_iden=
+tifier">substring</span>(<span class=3D"ace_identifier">str</span>.<span cl=
+ass=3D"ace_identifier">length</span>()<span class=3D"ace_constant ace_numer=
+ic">-2</span>,<span class=3D"ace_identifier">str</span>.<span class=3D"ace_=
+identifier">length</span>())<span class=3D"ace_keyword ace_operator">+</spa=
+n><span class=3D"ace_identifier">str</span>.<span class=3D"ace_identifier">=
+substring</span>(<span class=3D"ace_identifier">str</span>.<span class=3D"a=
+ce_identifier">length</span>()<span class=3D"ace_constant ace_numeric">-2</=
+span>,<span class=3D"ace_identifier">str</span>.<span class=3D"ace_identifi=
+er">length</span>());</div><div class=3D"ace_line" style=3D"height:14.66666=
+6984558105px">}</div><div class=3D"ace_line" style=3D"height:14.66666698455=
+8105px"></div></div><div class=3D"ace_layer ace_marker-layer"></div><div cl=
+ass=3D"ace_layer ace_cursor-layer"><div class=3D"ace_cursor" style=3D"left:=
+ 914.484px; top: 14.6667px; width: 6.59771px; height: 14.6667px;"></div></d=
+iv></div></div><div class=3D"ace_scrollbar ace_scrollbar-v" style=3D"displa=
+y: none; width: 22px; bottom: 17px;"><div class=3D"ace_scrollbar-inner" sty=
+le=3D"width: 22px; height: 58.6667px;"></div></div><div class=3D"ace_scroll=
+bar ace_scrollbar-h" style=3D"height: 22px; left: 0px; right: 0px;"><div cl=
+ass=3D"ace_scrollbar-inner" style=3D"height: 22px; width: 918px;"></div></d=
+iv><div style=3D"height: auto; width: auto; top: 0px; left: 0px; visibility=
+: hidden; position: absolute; white-space: pre; font: inherit; overflow: hi=
+dden;"><div style=3D"height: auto; width: auto; top: 0px; left: 0px; visibi=
+lity: hidden; position: absolute; white-space: pre; font: inherit; overflow=
+: visible;"></div><div style=3D"height: auto; width: auto; top: 0px; left: =
+0px; visibility: hidden; position: absolute; white-space: pre; font-style: =
+inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; =
+line-height: inherit; font-family: inherit; font-optical-sizing: inherit; f=
+ont-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inh=
+erit; font-variation-settings: inherit; overflow: visible;">XXXXXXXXXXXXXXX=
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div></div></div>
+
+
+
+<p><button class=3D"go">Go</button></p><p>Editor font size %:<select name=
+=3D"font"><option>75</option><option selected=3D"">100</option><option>125<=
+/option><option>150</option></select><br>Shorter output <input type=3D"chec=
+kbox" name=3D"outputonly">
+</p></form></td><td width=3D"500" valign=3D"top"><div id=3D"results" style=
+=3D"margin-top:10em;margin-left:1em;"><div id=3D"tests"><table class=3D"out=
+">
+<tbody><tr><th>Expected</th><th>Run</th><th></th><th></th></tr>
+<tr><td>extraEnd("Hello") =E2=86=92 "lololo"</td><td>"lololo"</td><td>OK</t=
+d><td class=3D"ok"></td></tr>
+
+<tr><td>extraEnd("ab") =E2=86=92 "ababab"</td><td>"ababab"</td><td>OK</td><=
+td class=3D"ok"></td></tr>
+
+<tr><td>extraEnd("Hi") =E2=86=92 "HiHiHi"</td><td>"HiHiHi"</td><td>OK</td><=
+td class=3D"ok"></td></tr>
+
+<tr><td>extraEnd("Candy") =E2=86=92 "dydydy"</td><td>"dydydy"</td><td>OK</t=
+d><td class=3D"ok"></td></tr>
+
+<tr><td>extraEnd("Code") =E2=86=92 "dedede"</td><td>"dedede"</td><td>OK</td=
+><td class=3D"ok"></td></tr>
+
+<tr><td><center>other tests</center></td><td></td><td>OK</td><td class=3D"o=
+k"></td></tr>
+</tbody></table></div>
+<br><center><img src=3D"https://codingbat.com/c2big.jpg"><font size=3D"+2">=
+All Correct</font></center>
+<p>Good job -- problem solved. You can see our solution as an alternative.<=
+/p><p><button class=3D"gray">See Our Solution</button>
+</p><p> <a href=3D"https://codingbat.com/prob/p163411">next</a> &nbsp;|&nbs=
+p; <a rel=3D"nofollow" href=3D"https://codingbat.com/java/String-1?chance=
+=3D1">chance</a></p><p><a href=3D"https://codingbat.com/java">Java</a>&nbsp=
+; &gt; &nbsp;<a href=3D"https://codingbat.com/java/String-1">String-1</a></=
+p><p><a href=3D"https://codingbat.com/done?user=3Ddhanushrajcdm2003@gmail.c=
+om&amp;tag=3D382235728">dhanushrajcdm2003@gmail.com done page</a>
+</p><p>Your <a href=3D"https://codingbat.com/done/p108853">progress graph</=
+a> for this problem
+</p></div></td></tr></tbody></table>
+<br><a rel=3D"nofollow" href=3D"https://codingbat.com/prob/p108853?clear=3D=
+1">Forget It!</a> -- delete my code for this problem
+<p>Progress graphs: <br>&nbsp;<a href=3D"https://codingbat.com/done/p108853=
+">Your progress graph</a> for this problem<br>&nbsp;<a rel=3D"nofollow" hre=
+f=3D"https://codingbat.com/done/p108853?random">Random user progress graph<=
+/a> for this problem <br>&nbsp;<a rel=3D"nofollow" href=3D"https://codingba=
+t.com/done/epic">Random Epic Progress Graph</a>
+</p><h3>Java Help</h3><p style=3D"max-width:800px"></p><ul><li><a href=3D"h=
+ttps://codingbat.com/doc/java-example-solution-code.html">Java Example Solu=
+tion Code</a></li><li><a href=3D"https://codingbat.com/doc/java-string-intr=
+oduction.html">Java String Introduction</a> (video) </li><li><a href=3D"htt=
+ps://codingbat.com/doc/java-string-substring.html">Java Substring v2</a> (v=
+ideo)</li><li><a href=3D"https://codingbat.com/doc/java-string-equals-loops=
+.html">Java String Equals and Loops</a></li><li><a href=3D"https://codingba=
+t.com/doc/java-string-indexof-parsing.html">Java String indexOf and Parsing=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-if-boolean-logic.htm=
+l">Java If and Boolean Logic</a></li><li>&nbsp; <a href=3D"https://codingba=
+t.com/doc/java-if-boolean-example-solution-code-1.html">If Boolean Logic Ex=
+ample Solution Code 1</a> (video)</li><li>&nbsp; <a href=3D"https://codingb=
+at.com/doc/java-if-boolean-example-solution-code-2.html">If Boolean Logic E=
+xample Solution Code 2</a> (video)</li><li><a href=3D"https://codingbat.com=
+/doc/java-for-while-loops.html">Java For and While Loops</a></li><li><a hre=
+f=3D"https://codingbat.com/doc/java-array-loops.html">Java Arrays and Loops=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-map-introduction.htm=
+l">Java Map Introduction</a></li><li><a href=3D"https://codingbat.com/doc/j=
+ava-map-wordcount.html">Java Map WordCount</a></li><li><a href=3D"https://c=
+odingbat.com/doc/java-functional-mapping.html">Java Functional Mapping</a><=
+/li><li><a href=3D"https://codingbat.com/doc/java-functional-filtering.html=
+">Java Functional Filtering</a></li></ul><p style=3D"max-width:800px"></p><=
+h3>Misc Code Practice</h3><ul><li><a href=3D"https://codingbat.com/doc/prac=
+tice/code-badges.html">Code Badges</a></li><li><a href=3D"https://codingbat=
+.com/doc/practice/mod-introduction.html">Introduction to Mod</a> (video)</l=
+i><li><a href=3D"https://codingbat.com/doc/practice/makebricks-introduction=
+.html">MakeBricks problem and solution</a> (video x 2)</li><li><a href=3D"h=
+ttps://codingbat.com/doc/practice/fizzbuzz-code.html">FizzBuzz the famous</=
+a> code interview question (video)</li></ul><p><font color=3D"gray">Difficu=
+lty: 115.0</font>
+<font color=3D"gray">Post-solution available</font>
+</p><p></p><p style=3D"font-size:x-small;">Copyright <a style=3D"font-size:=
+x-small;" href=3D"http://www-cs-faculty.stanford.edu/~nick">Nick Parlante</=
+a> 2017 - <a style=3D"font-size:x-small;" href=3D"https://codingbat.com/pri=
+vacy.html">privacy</a>
+</p></div></div></div></body></html>
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dd726c60-7b09-4622-8556-2778f27b2520@mhtml.blink
+
+@charset "utf-8";
+
+.ace_editor { position: relative; overflow: hidden; font: 12px Monaco, Menl=
+o, "Ubuntu Mono", Consolas, source-code-pro, monospace; direction: ltr; }
+
+.ace_scroller { position: absolute; overflow: hidden; top: 0px; bottom: 0px=
+; background-color: inherit; user-select: none; cursor: text; }
+
+.ace_content { position: absolute; box-sizing: border-box; min-width: 100%;=
+ }
+
+.ace_dragging .ace_scroller::before { position: absolute; inset: 0px; conte=
+nt: ""; background: rgba(250, 250, 250, 0.01); z-index: 1000; }
+
+.ace_dragging.ace_dark .ace_scroller::before { background: rgba(0, 0, 0, 0.=
+01); }
+
+.ace_selecting, .ace_selecting * { cursor: text !important; }
+
+.ace_gutter { position: absolute; overflow: hidden; width: auto; top: 0px; =
+bottom: 0px; left: 0px; cursor: default; z-index: 4; user-select: none; }
+
+.ace_gutter-active-line { position: absolute; left: 0px; right: 0px; }
+
+.ace_scroller.ace_scroll-left { box-shadow: rgba(0, 0, 0, 0.4) 17px 0px 16p=
+x -16px inset; }
+
+.ace_gutter-cell { padding-left: 19px; padding-right: 6px; background-repea=
+t: no-repeat; }
+
+.ace_gutter-cell.ace_error { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4w=
+FAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir=
++Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg=
+8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/Q=
+RzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm=
+1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6ej=
+u5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99N=
+fg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24=
+eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78D=
+Pokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMg=
+HFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIO=
+zgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kf=
+R+MMMDGOQAAAABJRU5ErkJggg=3D=3D"); background-repeat: no-repeat; background=
+-position: 2px center; }
+
+.ace_gutter-cell.ace_warning { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAA=
+BPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf//=
+//e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIA=
+AAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neX=
+e5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYE=
+wboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJa=
+UrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLg=
+upWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg=3D=3D"); background-position=
+: 2px center; }
+
+.ace_gutter-cell.ace_info { background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJb=
+WFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDb=
+MegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=
+=3D"); background-position: 2px center; }
+
+.ace_dark .ace_gutter-cell.ace_info { background-image: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIA=
+qKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYM=
+APdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC"); }
+
+.ace_scrollbar { position: absolute; right: 0px; bottom: 0px; z-index: 6; }
+
+.ace_scrollbar-inner { position: absolute; cursor: text; left: 0px; top: 0p=
+x; }
+
+.ace_scrollbar-v { overflow: hidden scroll; top: 0px; }
+
+.ace_scrollbar-h { overflow: scroll hidden; left: 0px; }
+
+.ace_print-margin { position: absolute; height: 100%; }
+
+.ace_text-input { position: absolute; z-index: 0; width: 0.5em; height: 1em=
+; opacity: 0; background: transparent; appearance: none; border: none; resi=
+ze: none; outline: none; overflow: hidden; font: inherit; padding: 0px 1px;=
+ margin: 0px -1px; text-indent: -1em; user-select: text; white-space: pre !=
+important; }
+
+.ace_text-input.ace_composition { background: inherit; color: inherit; z-in=
+dex: 1000; opacity: 1; text-indent: 0px; }
+
+.ace_layer { z-index: 1; position: absolute; overflow: hidden; overflow-wra=
+p: normal; white-space: pre; height: 100%; width: 100%; box-sizing: border-=
+box; pointer-events: none; }
+
+.ace_gutter-layer { position: relative; width: auto; text-align: right; poi=
+nter-events: auto; }
+
+.ace_text-layer { font: inherit !important; }
+
+.ace_cjk { display: inline-block; text-align: center; }
+
+.ace_cursor-layer { z-index: 4; }
+
+.ace_cursor { z-index: 4; position: absolute; box-sizing: border-box; borde=
+r-left: 2px solid; transform: translateZ(0px); }
+
+.ace_slim-cursors .ace_cursor { border-left-width: 1px; }
+
+.ace_overwrite-cursors .ace_cursor { border-left-width: 0px; border-bottom:=
+ 1px solid; }
+
+.ace_hidden-cursors .ace_cursor { opacity: 0.2; }
+
+.ace_smooth-blinking .ace_cursor { transition: opacity 0.18s; }
+
+.ace_editor.ace_multiselect .ace_cursor { border-left-width: 1px; }
+
+.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack { position: absol=
+ute; z-index: 3; }
+
+.ace_marker-layer .ace_selection { position: absolute; z-index: 5; }
+
+.ace_marker-layer .ace_bracket { position: absolute; z-index: 6; }
+
+.ace_marker-layer .ace_active-line { position: absolute; z-index: 2; }
+
+.ace_marker-layer .ace_selected-word { position: absolute; z-index: 4; box-=
+sizing: border-box; }
+
+.ace_line .ace_fold { box-sizing: border-box; display: inline-block; height=
+: 11px; margin-top: -2px; vertical-align: middle; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHR=
+Tb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSok=
+D8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErI=
+H0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqN=
+rA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII=3D"), url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZ=
+QBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMC=
+IMAAI3INmXiwf2YAAAAASUVORK5CYII=3D"); background-repeat: no-repeat, repeat-=
+x; background-position: center center, left top; color: transparent; border=
+: 1px solid black; border-radius: 2px; cursor: pointer; pointer-events: aut=
+o; }
+
+.ace_dark .ace_fold { }
+
+.ace_fold:hover { background-image: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR=
+5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQ=
+yMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIa=
+l8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXv=
+gnYAAAAASUVORK5CYII=3D"), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUg=
+AAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA=
+CBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC"); =
+}
+
+.ace_tooltip { background-color: rgb(255, 255, 255); background-image: line=
+ar-gradient(transparent, rgba(0, 0, 0, 0.1)); border: 1px solid gray; borde=
+r-radius: 1px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px; color: black; ma=
+x-width: 100%; padding: 3px 4px; position: fixed; z-index: 999999; box-sizi=
+ng: border-box; cursor: default; white-space: pre; overflow-wrap: break-wor=
+d; line-height: normal; font-style: normal; font-weight: normal; letter-spa=
+cing: normal; pointer-events: none; }
+
+.ace_folding-enabled > .ace_gutter-cell { padding-right: 13px; }
+
+.ace_fold-widget { box-sizing: border-box; margin: 0px -12px 0px 1px; displ=
+ay: none; width: 11px; vertical-align: top; background-image: url("data:ima=
+ge/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKs=
+Q0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJ=
+RU5ErkJggg=3D=3D"); background-repeat: no-repeat; background-position: cent=
+er center; border-radius: 3px; border: 1px solid transparent; cursor: point=
+er; }
+
+.ace_folding-enabled .ace_fold-widget { display: inline-block; }
+
+.ace_fold-widget.ace_end { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI=
+7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg=3D=3D"=
+); }
+
+.ace_fold-widget.ace_closed { background-image: url("data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4=
+EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQm=
+CCXA=3D=3D"); }
+
+.ace_fold-widget:hover { border: 1px solid rgba(0, 0, 0, 0.3); background-c=
+olor: rgba(255, 255, 255, 0.2); box-shadow: rgba(255, 255, 255, 0.7) 0px 1p=
+x 1px; }
+
+.ace_fold-widget:active { border: 1px solid rgba(0, 0, 0, 0.4); background-=
+color: rgba(0, 0, 0, 0.05); box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1p=
+x; }
+
+.ace_dark .ace_fold-widget { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaL=
+LAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC"); }
+
+.ace_dark .ace_fold-widget.ace_end { background-image: url("data:image/png;=
+base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7=
+wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget.ace_closed { background-image: url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/A=
+xAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget:hover { box-shadow: rgba(255, 255, 255, 0.2) 0px=
+ 1px 1px; background-color: rgba(255, 255, 255, 0.1); }
+
+.ace_dark .ace_fold-widget:active { box-shadow: rgba(255, 255, 255, 0.2) 0p=
+x 1px 1px; }
+
+.ace_fold-widget.ace_invalid { background-color: rgb(255, 180, 180); border=
+-color: rgb(222, 85, 85); }
+
+.ace_fade-fold-widgets .ace_fold-widget { transition: opacity 0.4s 0.05s; o=
+pacity: 0; }
+
+.ace_fade-fold-widgets:hover .ace_fold-widget { transition: opacity 0.05s 0=
+.05s; opacity: 1; }
+
+.ace_underline { text-decoration: underline; }
+
+.ace_bold { font-weight: bold; }
+
+.ace_nobold .ace_bold { font-weight: normal; }
+
+.ace_italic { font-style: italic; }
+
+.ace_error-marker { background-color: rgba(255, 0, 0, 0.2); position: absol=
+ute; z-index: 9; }
+
+.ace_highlight-marker { background-color: rgba(255, 255, 0, 0.2); position:=
+ absolute; z-index: 8; }
+
+.ace_br1 { border-top-left-radius: 3px; }
+
+.ace_br2 { border-top-right-radius: 3px; }
+
+.ace_br3 { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+
+.ace_br4 { border-bottom-right-radius: 3px; }
+
+.ace_br5 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br6 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br7 { border-top-left-radius: 3px; border-top-right-radius: 3px; borde=
+r-bottom-right-radius: 3px; }
+
+.ace_br8 { border-bottom-left-radius: 3px; }
+
+.ace_br9 { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br10 { border-top-right-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br11 { border-top-left-radius: 3px; border-top-right-radius: 3px; bord=
+er-bottom-left-radius: 3px; }
+
+.ace_br12 { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px=
+; }
+
+.ace_br13 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; b=
+order-bottom-left-radius: 3px; }
+
+.ace_br14 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; =
+border-bottom-left-radius: 3px; }
+
+.ace_br15 { border-radius: 3px; }
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3f54d219-34c2-4e3d-9dc7-a468e1b3130d@mhtml.blink
+
+@charset "utf-8";
+
+.ace-tm .ace_gutter { background: rgb(240, 240, 240); color: rgb(51, 51, 51=
+); }
+
+.ace-tm .ace_print-margin { width: 1px; background: rgb(232, 232, 232); }
+
+.ace-tm .ace_fold { background-color: rgb(107, 114, 230); }
+
+.ace-tm { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-tm .ace_cursor { color: black; }
+
+.ace-tm .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-tm .ace_storage, .ace-tm .ace_keyword { color: blue; }
+
+.ace-tm .ace_constant { color: rgb(197, 6, 11); }
+
+.ace-tm .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-tm .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-tm .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_invalid { background-color: rgba(255, 0, 0, 0.1); color: red; =
+}
+
+.ace-tm .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-tm .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_support.ace_type, .ace-tm .ace_support.ace_class { color: rgb(=
+109, 121, 222); }
+
+.ace-tm .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-tm .ace_string { color: rgb(3, 106, 7); }
+
+.ace-tm .ace_comment { color: rgb(76, 136, 107); }
+
+.ace-tm .ace_comment.ace_doc { color: rgb(0, 102, 255); }
+
+.ace-tm .ace_comment.ace_doc.ace_tag { color: rgb(128, 159, 191); }
+
+.ace-tm .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-tm .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-tm .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-tm .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-tm .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-tm .ace_list { color: rgb(185, 6, 144); }
+
+.ace-tm .ace_meta.ace_tag { color: rgb(0, 22, 142); }
+
+.ace-tm .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-tm .ace_marker-layer .ace_selection { background: rgb(181, 213, 255); =
+}
+
+.ace-tm.ace_multiselect .ace_selection.ace_start { box-shadow: white 0px 0p=
+x 3px 0px; }
+
+.ace-tm .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-tm .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); }
+
+.ace-tm .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; border:=
+ 1px solid rgb(192, 192, 192); }
+
+.ace-tm .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, 0.07=
+); }
+
+.ace-tm .ace_gutter-active-line { background-color: rgb(220, 220, 220); }
+
+.ace-tm .ace_marker-layer .ace_selected-word { background: rgb(250, 250, 25=
+5); border: 1px solid rgb(200, 200, 250); }
+
+.ace-tm .ace_indent-guide { background: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w1=
+1/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cdd60e76-9bdb-4be3-8a4f-229f05407e36@mhtml.blink
+
+@charset "utf-8";
+
+.error_widget_wrapper { background: inherit; color: inherit; border: none; =
+}
+
+.error_widget { border-top: 2px solid; border-bottom: 2px solid; margin: 5p=
+x 0px; padding: 10px 40px; white-space: pre-wrap; }
+
+.error_widget.ace_error, .error_widget_arrow.ace_error { border-color: rgb(=
+255, 90, 90); }
+
+.error_widget.ace_warning, .error_widget_arrow.ace_warning { border-color: =
+rgb(241, 216, 23); }
+
+.error_widget.ace_info, .error_widget_arrow.ace_info { border-color: rgb(90=
+, 90, 90); }
+
+.error_widget.ace_ok, .error_widget_arrow.ace_ok { border-color: rgb(90, 17=
+0, 90); }
+
+.error_widget_arrow { position: absolute; border-width: 5px; border-style: =
+solid; border-bottom-color: initial; border-image: initial; top: -5px; bord=
+er-top-color: transparent !important; border-right-color: transparent !impo=
+rtant; border-left-color: transparent !important; }
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e6542351-dcab-4137-bb40-c0e5a7cf2d08@mhtml.blink
+
+@charset "utf-8";
+
+.ace-chrome .ace_gutter { background: rgb(235, 235, 235); color: rgb(51, 51=
+, 51); overflow: hidden; }
+
+.ace-chrome .ace_print-margin { width: 1px; background: rgb(232, 232, 232);=
+ }
+
+.ace-chrome { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-chrome .ace_cursor { color: black; }
+
+.ace-chrome .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-chrome .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-chrome .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-chrome .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_invalid { background-color: rgb(153, 0, 0); color: white; =
+}
+
+.ace-chrome .ace_fold { }
+
+.ace-chrome .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-chrome .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_support.ace_type, .ace-chrome .ace_support.ace_class.ace-c=
+hrome .ace_support.ace_other { color: rgb(109, 121, 222); }
+
+.ace-chrome .ace_variable.ace_parameter { font-style: italic; color: rgb(25=
+3, 151, 31); }
+
+.ace-chrome .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-chrome .ace_comment { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc.ace_tag { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-chrome .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-chrome .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-chrome .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-chrome .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-chrome .ace_list { color: rgb(185, 6, 144); }
+
+.ace-chrome .ace_marker-layer .ace_selection { background: rgb(181, 213, 25=
+5); }
+
+.ace-chrome .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-chrome .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); =
+}
+
+.ace-chrome .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; bor=
+der: 1px solid rgb(192, 192, 192); }
+
+.ace-chrome .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, =
+0.07); }
+
+.ace-chrome .ace_gutter-active-line { background-color: rgb(220, 220, 220);=
+ }
+
+.ace-chrome .ace_marker-layer .ace_selected-word { background: rgb(250, 250=
+, 255); border: 1px solid rgb(200, 200, 250); }
+
+.ace-chrome .ace_storage, .ace-chrome .ace_keyword, .ace-chrome .ace_meta.a=
+ce_tag { color: rgb(147, 15, 128); }
+
+.ace-chrome .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-chrome .ace_string { color: rgb(26, 26, 166); }
+
+.ace-chrome .ace_entity.ace_other.ace_attribute-name { color: rgb(153, 68, =
+9); }
+
+.ace-chrome .ace_indent-guide { background: url("data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd=
+1/w11/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/codingbat.css
+
+@charset "utf-8";
+
+html, body { font-size: small; font-family: verdana, arial, helvetica, sans=
+-serif; }
+
+html, body { text-size-adjust: none; }
+
+pre, code { font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-cod=
+e-pro, monospace; }
+
+p { max-width: 800px; }
+
+p.max { max-width: 800px; }
+
+p.max2 { max-width: 600px; }
+
+a { text-decoration: none; }
+
+:link { color: rgb(0, 0, 221); }
+
+:visited { color: rgb(85, 26, 139); }
+
+.coding { border: 2px solid gray; font-family: monospace; font-size: medium=
+; }
+
+.lefty { float: left; padding-right: 40px; }
+
+.righty { float: left; }
+
+.parenty::after { content: ""; clear: both; display: table; }
+
+div.floatleft { float: left; }
+
+div.floatclear { clear: both; }
+
+div.summ { max-width: 300px; margin: 15px; padding: 10px; border: 1px solid=
+ gray; border-radius: 1em; }
+
+div.indent { margin-left: 15px; margin-top: 15px; }
+
+td { vertical-align: top; }
+
+.h1 { font-size: 300%; }
+
+.h2 { font-size: 166%; }
+
+.h3 { font-size: 120%; }
+
+span.no { color: red; }
+
+td.no { min-width: 22px; background-color: red; }
+
+td.ok { min-width: 22px; background-color: green; }
+
+code.spaceright { margin-right: 12px; }
+
+p.indent { margin-left: 25px; }
+
+button.go { width: 200px; height: 30px; background-color: rgb(241, 241, 241=
+); font-size: 112%; font-weight: bold; border-radius: 6px; }
+
+button.gray { background-color: rgb(241, 241, 241); border-radius: 6px; }
+
+button.go { font-weight: bold; border-radius: 8px; background: linear-gradi=
+ent(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)) rgb(187, 187, 187);=
+ border-style: solid; border-width: 1px; border-color: rgb(119, 119, 119); =
+color: rgb(51, 51, 51); text-align: center; text-shadow: rgb(216, 216, 216)=
+ 1px 1px 0px; width: 200px; height: 35px; font-size: 125%; }
+
+button.go:hover { background-color: rgb(170, 170, 170); color: rgb(17, 17, =
+17); border-color: rgb(68, 68, 68); transition-duration: 0.1s; }
+
+button.go:active { background: rgb(72, 72, 72); }
+
+button.plain { }
+
+button.plain:hover { }
+
+div.minh { min-height: 32px; }
+
+div.pretab { min-height: 9px; }
+
+div.tabc { min-width: 100vw; clear: both; }
+
+nav ul { list-style: none; padding: 0px; margin: 0px; }
+
+nav li { display: inline; border-style: solid; border-color: initial; borde=
+r-image: initial; border-width: 1px 1px 0px; margin: 0px 25px 0px 6px; }
+
+nav li a { padding: 0px 40px; }
+
+div.tabin { border-top: 1px solid; clear: both; }
+
+#content { border-top: 1px solid; clear: both; }
+
+#selected { position: relative; top: 1px; background: white; }
+
+#ace_div { width: 600px; height: 375px; border: 2px solid gray; }
+
+table.out { border-collapse: collapse; }
+
+table.out td { border: 2px solid black; padding: 4px; }
+
+table.clean { border-collapse: collapse; }
+
+td.clean { border: 1px solid black; padding: 6px; }
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://codingbat.com/c2big.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/7QAcUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAD/2wBDAAIB
+AQIBAQICAQICAgICAwUDAwMDAwYEBAMFBwYHBwcGBgYHCAsJBwgKCAYGCQ0JCgsLDAwMBwkNDg0M
+DgsMDAv/2wBDAQICAgMCAwUDAwULCAYICwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsL
+CwsLCwsLCwsLCwsLCwsLCwv/wAARCAAyADADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAA
+AAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEI
+I0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlq
+c3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW
+19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL
+/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLR
+ChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn
+6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiivgf/guP/wAFR9T/AGOfh9pXwp/ZWaPU
+f2gPizFJbaBErAr4as+Vm1e5zkKsYDiMNwzqThhGynHEYilhKU69aSjCKbbeiSWrbfZIwxWKo4Kj
+PEYiajTgnKUm7JJK7bfRJbnzT/wXP/by1P8AbK+L2o/sh/sr6vcWPhjS9r/F/wAT2LDMER5TRLeT
+kebIR++9MbDkLMhX/gk9/wAFadd/Yu8caD+zj/wUj143nha8K2Pw3+Jd84SK4jUAR6XqspOI5kG1
+Y5mOGAAY9GrwP9nX4C6X+zb8MY9F0q5lv7yaR9Q1nV7ty1zq97J8011PIxJJY5+8TgAc9Sek/wCC
+cf7FUf8AwWg/acbxh8U7M3X7L/wh1PbZ2s0ebf4i65GMHOf9ZZQBvm6q+4LyHfZ+DcJ+ImccacWV
+IZbBf2dCNpcytZa2nfdTk9o7cu6unJfzNwP4rZ/4hccVaeU01/ZVOLUuZWtFX5al7XVScvhhtyXT
+V4uS/bX4+/H7wd+y78Idd8e/HzX7Dwx4S8N2xutQ1C7fCRKOAoAyzuzEKqKCzswVQSQKyv2U/wBr
+HwB+238DtH+I37M3iK28TeEtcDi3u4keJ0dGKvFLFIA8UisCCjqD0PQgn8KP2iP2pvFf/BZb9rLx
+HL+0jY6j4K+G/wAFNdbT9K+FN/mO+XUEyPt2uRDh5PvqkYLIuGQEje02z+yv+1vP/wAEUf2r7rxj
+NHcv+zd8V71I/HGm2sLyjwhqbfLFq1tDGCfLfhJUQZI4AJWJa/QJeI+VR4j/ANW5Nqrb4npHndmo
+a9WndPZuyV2z9Rl4s5JDiz/VGTarWtzPSPtHZqmr63cXdPZu0U22fsR/wUk/4KC+D/8Agmp+y1rP
+xH+K7G8uYyLHQdFhb/S/EWpyA+RZwLySWIJZgDsRXbB24P4t/AzwN4v8X+P/ABR8Z/2uLpdW+MXx
+NlF1qj9YtBtOPI0y1BJ8uKJAikAnJQAltu42/Hfx88Q/8FZv2sh8e/i3b3mn/DXwq81l8J/DN0m0
+QWxYB9XuI+huJygZf7oCgEhEY1/2ifi14h0PUfDfw+/Zy0v/AIST4v8AxMu/7J8K6SuDskP37yfP
+CwQrl2ZsL8pJO1WI/IfFPi/FcW5jDg/IfevK1RraUl9m/wDLC15vuv7rv+D+NPHeN45zWnwFwz79
+5KNVp6SkteS/SFO3NUfdW2i7n/Cq/FX/AAUs/aitv2av2c76bS9NEKX/AMTfFNuu4eG9JJGbWNun
+2q4HyKh7NyNokK/vd8BvgX4W/Zm+DXhvwB8E9Jt9D8K+E7GPTtNsoRxFEg6serOxJZnOSzMzEkkm
+vFf+CVH/AATa8P8A/BMr9l608IaNcJrvjLWpf7W8ZeJXQ/aPEOqSDMsrM3zeUpJSND91eT8zOW+m
+K/cOCuEcLwXlkMBh9Zbzl1nLq/TpFdF53b/o7w84EwXh7k9PLMLrP4qk7azm936dIrpFLd3b/Kr/
+AIL3/wDBO3WvCniZP2uf2ONIlvfGXhSzFv8AETw9aLj/AIS/Q4wN1wFHW6tUXcG6tGg6+Uqv8v8A
+g/xZ4W/aO+EtnquiCx8QeFvE9mH8u4hWWKeNuGjljYEZBBVkI4Kkdq/fR0EiFZAGVhggjIIr8G/+
+Ckf7II/4I0ftVyeMPA1vJB+zF8Y9TZ540Qm3+HmvSZYrgD93Z3GCVxwu0rgCNd/574w+HsuIsN/b
+GWx/2uktUt5xWtlb7Ud49Wrx1fLb8s8e/CuXFeEWfZTD/bqC1Ud6kFrZW1c4bxtq1eOr5bYnxt+M
+nh39mX4RX3iTxjtttL0iJYba0t1AkuZMbYraBBxuYgKAOAAT0Br7f/4IQ/8ABMPXPgvp+pftE/tp
+6aq/HL4m2oW006YE/wDCDaK2Gh0+JW+5M42vKcBgcIcHzC/zb/wRw/Yfuf8Agpj+0RZftIftBaZO
+nwV+HN+6fDLQ7yPaniXUYmKvrU8bD5oonXEQPV17eWwk/bOuvwj8PP8AVPB/2hjo/wC11VrfeEXr
+y+r3n52XS77vAvwqXBGA/tTMof7fXWt96cHqof4no5+do/Zuyiiiv2Q/fgr5W/4LiaLZ69/wSG/a
+Kh1y0tr2GLwNqNyiTxLIqSxRGSOQBgQGR0R1bqrKCMECiigD2n9k/RLLw3+y58N7Dw7aWthYWfhf
+TYoLa2iWKGBBaxgKiKAFA9AMV6BRRQAUUUUAf//Z
+
+------MultipartBoundary--C6r0I3NXxPDrd8OOJogEmArZbpNWTM0vHyKS13PgpM------
