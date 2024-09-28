@@ -1,0 +1,978 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://codingbat.com/prob/p196458
+Subject: CodingBat Java Map-1 topping2
+Date: Sun, 15 Sep 2024 17:26:31 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----"
+
+
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/html
+Content-ID: <frame-639EAE9E55EB4D6838090A4D2582C1A3@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/prob/p196458
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-fc5cc9a9-53e7-45f7-95b9-8a7ae0d3e0d4@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-efe3d74c-5b74-4398-8f4b-208ea5=
+5ceb0d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"ci=
+d:css-be265b2b-17aa-4fbf-af35-8a7f59b94be4@mhtml.blink" /><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-d32df852-655e-4aba-bb1a-90c4c0b83=
+003@mhtml.blink" />
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://codingbat.com/co=
+dingbat.css">
+
+
+
+<title>CodingBat Java Map-1 topping2</title>
+</head>
+<body><div style=3D"float:right;  margin:0px; border: 1px solid lightgray;"=
+><table><tbody><tr><td>dhanushrajcdm2003<br>@gmail.com</td></tr><tr><td><a =
+href=3D"https://codingbat.com/doc/practice/code-badges.html"> <img width=3D=
+"30" style=3D"vertical-align: middle" src=3D"https://codingbat.com/s10j.png=
+"></a> [<a href=3D"https://codingbat.com/logout">log out</a>]</td></tr></tb=
+ody></table></div><div style=3D"float:right"><table><tbody><tr><td valign=
+=3D"top" style=3D"text-align:right" colspan=3D"1"><a href=3D"https://coding=
+bat.com/about.html">about</a> | <a href=3D"https://codingbat.com/help.html"=
+>help</a> | <a href=3D"https://codingbat.com/doc/code-help-videos.html">cod=
+e help+videos | </a><a href=3D"https://codingbat.com/done?user=3Ddhanushraj=
+cdm2003@gmail.com&amp;tag=3D382235728">done</a> | <a href=3D"https://coding=
+bat.com/report">report</a> | <a href=3D"https://codingbat.com/pref">prefs</=
+a> </td></tr></tbody></table></div><a href=3D"https://codingbat.com/"><span=
+ style=3D"font-size:200%;">CodingBat</span></a> code practice
+<div class=3D"pretab"><p class=3D"max">&nbsp;</p></div><div class=3D"tabc">=
+<nav><ul><li class=3D"h2" id=3D"selected"><a href=3D"https://codingbat.com/=
+java">Java</a></li><li class=3D"h2"><a href=3D"https://codingbat.com/python=
+">Python</a></li></ul></nav><div class=3D"tabin"><div class=3D"indent"><a h=
+ref=3D"https://codingbat.com/java/Map-1"><span class=3D"h2">Map-1</span></a=
+> &gt; <span class=3D"h2">topping2</span>
+<br><a href=3D"https://codingbat.com/prob/p182712">prev</a> &nbsp;|&nbsp; <=
+a href=3D"https://codingbat.com/prob/p128461">next</a> &nbsp;|&nbsp; <a rel=
+=3D"nofollow" href=3D"https://codingbat.com/java/Map-1?chance=3D1">chance</=
+a>
+<p></p><table border=3D"0"><tbody><tr><td valign=3D"top"><div class=3D"minh=
+"><p class=3D"max2">Given a map of food keys and their topping values, modi=
+fy and return the map as follows: if the key "ice cream" has a value, set t=
+hat as the value for the key "yogurt" also. If the key "spinach" has a valu=
+e, change that value to "nuts".</p></div><br>topping2({"ice cream": "cherry=
+"}) =E2=86=92 {"yogurt": "cherry", "ice cream": "cherry"}<br>topping2({"spi=
+nach": "dirt", "ice cream": "cherry"}) =E2=86=92 {"yogurt": "cherry", "spin=
+ach": "nuts", "ice cream": "cherry"}<br>topping2({"yogurt": "salt"}) =E2=86=
+=92 {"yogurt": "salt"}<p><button class=3D"go">Go</button>...Save, Compile, =
+Run (ctrl-enter)<span style=3D"margin-left:60px;"><button class=3D"gray">Ma=
+p API</button></span></p><form name=3D"codeform"><div id=3D"ace_div" class=
+=3D" ace_editor ace-chrome ace_focus"><textarea class=3D"ace_text-input" wr=
+ap=3D"off" autocorrect=3D"off" autocapitalize=3D"off" spellcheck=3D"false" =
+style=3D"opacity: 0; height: 14.6667px; width: 6.59771px; left: 10.5977px; =
+top: 117.333px;"></textarea><div class=3D"ace_gutter" style=3D"display: non=
+e;"><div class=3D"ace_layer ace_gutter-layer ace_folding-enabled" style=3D"=
+margin-top: 0px;"></div><div class=3D"ace_gutter-active-line" style=3D"top:=
+ 117.333px; height: 14.6667px;"></div></div><div class=3D"ace_scroller" sty=
+le=3D"left: 0px; right: 0px; bottom: 0px;"><div class=3D"ace_content" style=
+=3D"margin-top: 0px; width: 600px; height: 404.333px; margin-left: 0px;"><d=
+iv class=3D"ace_layer ace_print-margin-layer"><div class=3D"ace_print-margi=
+n" style=3D"left: 531.817px; visibility: visible;"></div></div><div class=
+=3D"ace_layer ace_marker-layer"><div class=3D"ace_active-line" style=3D"hei=
+ght:14.666666984558105px;top:117.33333587646484px;left:0;right:0;"></div><d=
+iv class=3D"ace_bracket ace_start ace_br15" style=3D"height:14.666666984558=
+105px;width:6.597708740234375px;top:0px;left:406.4602331542969px;"></div></=
+div><div class=3D"ace_layer ace_text-layer" style=3D"padding: 0px 4px;"><di=
+v class=3D"ace_line" style=3D"height:14.666666984558105px"><span class=3D"a=
+ce_keyword">public</span> <span class=3D"ace_identifier">Map</span><span cl=
+ass=3D"ace_keyword ace_operator">&lt;</span><span class=3D"ace_support ace_=
+function">String</span>, <span class=3D"ace_support ace_function">String</s=
+pan><span class=3D"ace_keyword ace_operator">&gt;</span> <span class=3D"ace=
+_identifier">topping2</span>(<span class=3D"ace_identifier">Map</span><span=
+ class=3D"ace_keyword ace_operator">&lt;</span><span class=3D"ace_support a=
+ce_function">String</span>, <span class=3D"ace_support ace_function">String=
+</span><span class=3D"ace_keyword ace_operator">&gt;</span> <span class=3D"=
+ace_identifier">map</span>) {</div><div class=3D"ace_line" style=3D"height:=
+14.666666984558105px">  <span class=3D"ace_keyword">if</span> (<span class=
+=3D"ace_identifier">map</span>.<span class=3D"ace_identifier">containsKey</=
+span>(<span class=3D"ace_string">"ice cream"</span>)) {</div><div class=3D"=
+ace_line" style=3D"height:14.666666984558105px"><span class=3D"ace_indent-g=
+uide">  </span>  <span class=3D"ace_identifier">map</span>.<span class=3D"a=
+ce_identifier">put</span>(<span class=3D"ace_string">"yogurt"</span>, <span=
+ class=3D"ace_identifier">map</span>.<span class=3D"ace_identifier">get</sp=
+an>(<span class=3D"ace_string">"ice cream"</span>));</div><div class=3D"ace=
+_line" style=3D"height:14.666666984558105px">  }</div><div class=3D"ace_lin=
+e" style=3D"height:14.666666984558105px">  <span class=3D"ace_keyword">if</=
+span> (<span class=3D"ace_identifier">map</span>.<span class=3D"ace_identif=
+ier">containsKey</span>(<span class=3D"ace_string">"spinach"</span>)) {</di=
+v><div class=3D"ace_line" style=3D"height:14.666666984558105px"><span class=
+=3D"ace_indent-guide">  </span>  <span class=3D"ace_identifier">map</span>.=
+<span class=3D"ace_identifier">put</span>(<span class=3D"ace_string">"spina=
+ch"</span>, <span class=3D"ace_string">"nuts"</span>);</div><div class=3D"a=
+ce_line" style=3D"height:14.666666984558105px">  }</div><div class=3D"ace_l=
+ine" style=3D"height:14.666666984558105px">  <span class=3D"ace_keyword">re=
+turn</span> <span class=3D"ace_identifier">map</span>;</div><div class=3D"a=
+ce_line" style=3D"height:14.666666984558105px">}</div></div><div class=3D"a=
+ce_layer ace_marker-layer"></div><div class=3D"ace_layer ace_cursor-layer">=
+<div class=3D"ace_cursor" style=3D"left: 10.5977px; top: 117.333px; width: =
+6.59771px; height: 14.6667px;"></div></div></div></div><div class=3D"ace_sc=
+rollbar ace_scrollbar-v" style=3D"display: none; width: 22px; bottom: 0px;"=
+><div class=3D"ace_scrollbar-inner" style=3D"width: 22px; height: 132px;"><=
+/div></div><div class=3D"ace_scrollbar ace_scrollbar-h" style=3D"display: n=
+one; height: 22px; left: 0px; right: 0px;"><div class=3D"ace_scrollbar-inne=
+r" style=3D"height: 22px; width: 600px;"></div></div><div style=3D"height: =
+auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: absol=
+ute; white-space: pre; font: inherit; overflow: hidden;"><div style=3D"heig=
+ht: auto; width: auto; top: 0px; left: 0px; visibility: hidden; position: a=
+bsolute; white-space: pre; font: inherit; overflow: visible;"></div><div st=
+yle=3D"height: auto; width: auto; top: 0px; left: 0px; visibility: hidden; =
+position: absolute; white-space: pre; font-style: inherit; font-variant: in=
+herit; font-stretch: inherit; font-size: inherit; line-height: inherit; fon=
+t-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit;=
+ font-kerning: inherit; font-feature-settings: inherit; font-variation-sett=
+ings: inherit; overflow: visible;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=
+XXXXXXXXXX</div></div></div>
+
+
+
+<p><button class=3D"go">Go</button></p><p>Editor font size %:<select name=
+=3D"font"><option>75</option><option selected=3D"">100</option><option>125<=
+/option><option>150</option></select><br>Shorter output <input type=3D"chec=
+kbox" name=3D"outputonly">
+</p></form></td><td width=3D"500" valign=3D"top"><div id=3D"results" style=
+=3D"margin-top:10em;margin-left:1em;"><div id=3D"tests"><table class=3D"out=
+">
+<tbody><tr><th>Expected</th><th>Run</th><th></th><th></th></tr>
+<tr><td>topping2({"ice cream": "cherry"}) =E2=86=92 {"yogurt": "cherry", "i=
+ce cream": "cherry"}</td><td>{"yogurt": "cherry", "ice cream": "cherry"}</t=
+d><td>OK</td><td class=3D"ok"></td></tr>
+
+<tr><td>topping2({"spinach": "dirt", "ice cream": "cherry"}) =E2=86=92 {"yo=
+gurt": "cherry", "spinach": "nuts", "ice cream": "cherry"}</td><td>{"yogurt=
+": "cherry", "spinach": "nuts", "ice cream": "cherry"}</td><td>OK</td><td c=
+lass=3D"ok"></td></tr>
+
+<tr><td>topping2({"yogurt": "salt"}) =E2=86=92 {"yogurt": "salt"}</td><td>{=
+"yogurt": "salt"}</td><td>OK</td><td class=3D"ok"></td></tr>
+
+<tr><td>topping2({"yogurt": "salt", "bread": "butter"}) =E2=86=92 {"yogurt"=
+: "salt", "bread": "butter"}</td><td>{"yogurt": "salt", "bread": "butter"}<=
+/td><td>OK</td><td class=3D"ok"></td></tr>
+
+<tr><td>topping2({}) =E2=86=92 {}</td><td>{}</td><td>OK</td><td class=3D"ok=
+"></td></tr>
+
+<tr><td>topping2({"ice cream": "air", "salad": "oil"}) =E2=86=92 {"yogurt":=
+ "air", "ice cream": "air", "salad": "oil"}</td><td>{"yogurt": "air", "ice =
+cream": "air", "salad": "oil"}</td><td>OK</td><td class=3D"ok"></td></tr>
+
+</tbody></table></div>
+<br><center><img src=3D"https://codingbat.com/c2big.jpg"><font size=3D"+2">=
+All Correct</font></center>
+<p> <a href=3D"https://codingbat.com/prob/p128461">next</a> &nbsp;|&nbsp; <=
+a rel=3D"nofollow" href=3D"https://codingbat.com/java/Map-1?chance=3D1">cha=
+nce</a></p><p><a href=3D"https://codingbat.com/java">Java</a>&nbsp; &gt; &n=
+bsp;<a href=3D"https://codingbat.com/java/Map-1">Map-1</a></p><p><a href=3D=
+"https://codingbat.com/done?user=3Ddhanushrajcdm2003@gmail.com&amp;tag=3D38=
+2235728">dhanushrajcdm2003@gmail.com done page</a>
+</p><p>Your <a href=3D"https://codingbat.com/done/p196458">progress graph</=
+a> for this problem
+</p></div></td></tr></tbody></table>
+<br><a rel=3D"nofollow" href=3D"https://codingbat.com/prob/p196458?clear=3D=
+1">Forget It!</a> -- delete my code for this problem
+<p>Progress graphs: <br>&nbsp;<a href=3D"https://codingbat.com/done/p196458=
+">Your progress graph</a> for this problem<br>&nbsp;<a rel=3D"nofollow" hre=
+f=3D"https://codingbat.com/done/p196458?random">Random user progress graph<=
+/a> for this problem <br>&nbsp;<a rel=3D"nofollow" href=3D"https://codingba=
+t.com/done/epic">Random Epic Progress Graph</a>
+</p><h3>Java Help</h3><p style=3D"max-width:800px"></p><ul><li><a href=3D"h=
+ttps://codingbat.com/doc/java-example-solution-code.html">Java Example Solu=
+tion Code</a></li><li><a href=3D"https://codingbat.com/doc/java-string-intr=
+oduction.html">Java String Introduction</a> (video) </li><li><a href=3D"htt=
+ps://codingbat.com/doc/java-string-substring.html">Java Substring v2</a> (v=
+ideo)</li><li><a href=3D"https://codingbat.com/doc/java-string-equals-loops=
+.html">Java String Equals and Loops</a></li><li><a href=3D"https://codingba=
+t.com/doc/java-string-indexof-parsing.html">Java String indexOf and Parsing=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-if-boolean-logic.htm=
+l">Java If and Boolean Logic</a></li><li>&nbsp; <a href=3D"https://codingba=
+t.com/doc/java-if-boolean-example-solution-code-1.html">If Boolean Logic Ex=
+ample Solution Code 1</a> (video)</li><li>&nbsp; <a href=3D"https://codingb=
+at.com/doc/java-if-boolean-example-solution-code-2.html">If Boolean Logic E=
+xample Solution Code 2</a> (video)</li><li><a href=3D"https://codingbat.com=
+/doc/java-for-while-loops.html">Java For and While Loops</a></li><li><a hre=
+f=3D"https://codingbat.com/doc/java-array-loops.html">Java Arrays and Loops=
+</a></li><li><a href=3D"https://codingbat.com/doc/java-map-introduction.htm=
+l">Java Map Introduction</a></li><li><a href=3D"https://codingbat.com/doc/j=
+ava-map-wordcount.html">Java Map WordCount</a></li><li><a href=3D"https://c=
+odingbat.com/doc/java-functional-mapping.html">Java Functional Mapping</a><=
+/li><li><a href=3D"https://codingbat.com/doc/java-functional-filtering.html=
+">Java Functional Filtering</a></li></ul><p style=3D"max-width:800px"></p><=
+h3>Misc Code Practice</h3><ul><li><a href=3D"https://codingbat.com/doc/prac=
+tice/code-badges.html">Code Badges</a></li><li><a href=3D"https://codingbat=
+.com/doc/practice/mod-introduction.html">Introduction to Mod</a> (video)</l=
+i><li><a href=3D"https://codingbat.com/doc/practice/makebricks-introduction=
+.html">MakeBricks problem and solution</a> (video x 2)</li><li><a href=3D"h=
+ttps://codingbat.com/doc/practice/fizzbuzz-code.html">FizzBuzz the famous</=
+a> code interview question (video)</li></ul><p><font color=3D"gray">Difficu=
+lty: 215</font>
+</p><p></p><p style=3D"font-size:x-small;">Copyright <a style=3D"font-size:=
+x-small;" href=3D"http://www-cs-faculty.stanford.edu/~nick">Nick Parlante</=
+a> 2017 - <a style=3D"font-size:x-small;" href=3D"https://codingbat.com/pri=
+vacy.html">privacy</a>
+</p></div></div></div></body></html>
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fc5cc9a9-53e7-45f7-95b9-8a7ae0d3e0d4@mhtml.blink
+
+@charset "utf-8";
+
+.ace_editor { position: relative; overflow: hidden; font: 12px Monaco, Menl=
+o, "Ubuntu Mono", Consolas, source-code-pro, monospace; direction: ltr; }
+
+.ace_scroller { position: absolute; overflow: hidden; top: 0px; bottom: 0px=
+; background-color: inherit; user-select: none; cursor: text; }
+
+.ace_content { position: absolute; box-sizing: border-box; min-width: 100%;=
+ }
+
+.ace_dragging .ace_scroller::before { position: absolute; inset: 0px; conte=
+nt: ""; background: rgba(250, 250, 250, 0.01); z-index: 1000; }
+
+.ace_dragging.ace_dark .ace_scroller::before { background: rgba(0, 0, 0, 0.=
+01); }
+
+.ace_selecting, .ace_selecting * { cursor: text !important; }
+
+.ace_gutter { position: absolute; overflow: hidden; width: auto; top: 0px; =
+bottom: 0px; left: 0px; cursor: default; z-index: 4; user-select: none; }
+
+.ace_gutter-active-line { position: absolute; left: 0px; right: 0px; }
+
+.ace_scroller.ace_scroll-left { box-shadow: rgba(0, 0, 0, 0.4) 17px 0px 16p=
+x -16px inset; }
+
+.ace_gutter-cell { padding-left: 19px; padding-right: 6px; background-repea=
+t: no-repeat; }
+
+.ace_gutter-cell.ace_error { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4w=
+FAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir=
++Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg=
+8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/Q=
+RzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm=
+1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6ej=
+u5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99N=
+fg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24=
+eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78D=
+Pokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMg=
+HFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIO=
+zgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kf=
+R+MMMDGOQAAAABJRU5ErkJggg=3D=3D"); background-repeat: no-repeat; background=
+-position: 2px center; }
+
+.ace_gutter-cell.ace_warning { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAA=
+BPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf//=
+//e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIA=
+AAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neX=
+e5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYE=
+wboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJa=
+UrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLg=
+upWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg=3D=3D"); background-position=
+: 2px center; }
+
+.ace_gutter-cell.ace_info { background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJb=
+WFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDb=
+MegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=
+=3D"); background-position: 2px center; }
+
+.ace_dark .ace_gutter-cell.ace_info { background-image: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIA=
+qKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYM=
+APdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC"); }
+
+.ace_scrollbar { position: absolute; right: 0px; bottom: 0px; z-index: 6; }
+
+.ace_scrollbar-inner { position: absolute; cursor: text; left: 0px; top: 0p=
+x; }
+
+.ace_scrollbar-v { overflow: hidden scroll; top: 0px; }
+
+.ace_scrollbar-h { overflow: scroll hidden; left: 0px; }
+
+.ace_print-margin { position: absolute; height: 100%; }
+
+.ace_text-input { position: absolute; z-index: 0; width: 0.5em; height: 1em=
+; opacity: 0; background: transparent; appearance: none; border: none; resi=
+ze: none; outline: none; overflow: hidden; font: inherit; padding: 0px 1px;=
+ margin: 0px -1px; text-indent: -1em; user-select: text; white-space: pre !=
+important; }
+
+.ace_text-input.ace_composition { background: inherit; color: inherit; z-in=
+dex: 1000; opacity: 1; text-indent: 0px; }
+
+.ace_layer { z-index: 1; position: absolute; overflow: hidden; overflow-wra=
+p: normal; white-space: pre; height: 100%; width: 100%; box-sizing: border-=
+box; pointer-events: none; }
+
+.ace_gutter-layer { position: relative; width: auto; text-align: right; poi=
+nter-events: auto; }
+
+.ace_text-layer { font: inherit !important; }
+
+.ace_cjk { display: inline-block; text-align: center; }
+
+.ace_cursor-layer { z-index: 4; }
+
+.ace_cursor { z-index: 4; position: absolute; box-sizing: border-box; borde=
+r-left: 2px solid; transform: translateZ(0px); }
+
+.ace_slim-cursors .ace_cursor { border-left-width: 1px; }
+
+.ace_overwrite-cursors .ace_cursor { border-left-width: 0px; border-bottom:=
+ 1px solid; }
+
+.ace_hidden-cursors .ace_cursor { opacity: 0.2; }
+
+.ace_smooth-blinking .ace_cursor { transition: opacity 0.18s; }
+
+.ace_editor.ace_multiselect .ace_cursor { border-left-width: 1px; }
+
+.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack { position: absol=
+ute; z-index: 3; }
+
+.ace_marker-layer .ace_selection { position: absolute; z-index: 5; }
+
+.ace_marker-layer .ace_bracket { position: absolute; z-index: 6; }
+
+.ace_marker-layer .ace_active-line { position: absolute; z-index: 2; }
+
+.ace_marker-layer .ace_selected-word { position: absolute; z-index: 4; box-=
+sizing: border-box; }
+
+.ace_line .ace_fold { box-sizing: border-box; display: inline-block; height=
+: 11px; margin-top: -2px; vertical-align: middle; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHR=
+Tb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSok=
+D8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErI=
+H0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqN=
+rA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII=3D"), url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZ=
+QBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMC=
+IMAAI3INmXiwf2YAAAAASUVORK5CYII=3D"); background-repeat: no-repeat, repeat-=
+x; background-position: center center, left top; color: transparent; border=
+: 1px solid black; border-radius: 2px; cursor: pointer; pointer-events: aut=
+o; }
+
+.ace_dark .ace_fold { }
+
+.ace_fold:hover { background-image: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR=
+5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQ=
+yMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIa=
+l8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXv=
+gnYAAAAASUVORK5CYII=3D"), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUg=
+AAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA=
+CBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC"); =
+}
+
+.ace_tooltip { background-color: rgb(255, 255, 255); background-image: line=
+ar-gradient(transparent, rgba(0, 0, 0, 0.1)); border: 1px solid gray; borde=
+r-radius: 1px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px; color: black; ma=
+x-width: 100%; padding: 3px 4px; position: fixed; z-index: 999999; box-sizi=
+ng: border-box; cursor: default; white-space: pre; overflow-wrap: break-wor=
+d; line-height: normal; font-style: normal; font-weight: normal; letter-spa=
+cing: normal; pointer-events: none; }
+
+.ace_folding-enabled > .ace_gutter-cell { padding-right: 13px; }
+
+.ace_fold-widget { box-sizing: border-box; margin: 0px -12px 0px 1px; displ=
+ay: none; width: 11px; vertical-align: top; background-image: url("data:ima=
+ge/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKs=
+Q0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJ=
+RU5ErkJggg=3D=3D"); background-repeat: no-repeat; background-position: cent=
+er center; border-radius: 3px; border: 1px solid transparent; cursor: point=
+er; }
+
+.ace_folding-enabled .ace_fold-widget { display: inline-block; }
+
+.ace_fold-widget.ace_end { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI=
+7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg=3D=3D"=
+); }
+
+.ace_fold-widget.ace_closed { background-image: url("data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4=
+EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQm=
+CCXA=3D=3D"); }
+
+.ace_fold-widget:hover { border: 1px solid rgba(0, 0, 0, 0.3); background-c=
+olor: rgba(255, 255, 255, 0.2); box-shadow: rgba(255, 255, 255, 0.7) 0px 1p=
+x 1px; }
+
+.ace_fold-widget:active { border: 1px solid rgba(0, 0, 0, 0.4); background-=
+color: rgba(0, 0, 0, 0.05); box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1p=
+x; }
+
+.ace_dark .ace_fold-widget { background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaL=
+LAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC"); }
+
+.ace_dark .ace_fold-widget.ace_end { background-image: url("data:image/png;=
+base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7=
+wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget.ace_closed { background-image: url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/A=
+xAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg=3D=3D"); }
+
+.ace_dark .ace_fold-widget:hover { box-shadow: rgba(255, 255, 255, 0.2) 0px=
+ 1px 1px; background-color: rgba(255, 255, 255, 0.1); }
+
+.ace_dark .ace_fold-widget:active { box-shadow: rgba(255, 255, 255, 0.2) 0p=
+x 1px 1px; }
+
+.ace_fold-widget.ace_invalid { background-color: rgb(255, 180, 180); border=
+-color: rgb(222, 85, 85); }
+
+.ace_fade-fold-widgets .ace_fold-widget { transition: opacity 0.4s 0.05s; o=
+pacity: 0; }
+
+.ace_fade-fold-widgets:hover .ace_fold-widget { transition: opacity 0.05s 0=
+.05s; opacity: 1; }
+
+.ace_underline { text-decoration: underline; }
+
+.ace_bold { font-weight: bold; }
+
+.ace_nobold .ace_bold { font-weight: normal; }
+
+.ace_italic { font-style: italic; }
+
+.ace_error-marker { background-color: rgba(255, 0, 0, 0.2); position: absol=
+ute; z-index: 9; }
+
+.ace_highlight-marker { background-color: rgba(255, 255, 0, 0.2); position:=
+ absolute; z-index: 8; }
+
+.ace_br1 { border-top-left-radius: 3px; }
+
+.ace_br2 { border-top-right-radius: 3px; }
+
+.ace_br3 { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+
+.ace_br4 { border-bottom-right-radius: 3px; }
+
+.ace_br5 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br6 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
+.ace_br7 { border-top-left-radius: 3px; border-top-right-radius: 3px; borde=
+r-bottom-right-radius: 3px; }
+
+.ace_br8 { border-bottom-left-radius: 3px; }
+
+.ace_br9 { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br10 { border-top-right-radius: 3px; border-bottom-left-radius: 3px; }
+
+.ace_br11 { border-top-left-radius: 3px; border-top-right-radius: 3px; bord=
+er-bottom-left-radius: 3px; }
+
+.ace_br12 { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px=
+; }
+
+.ace_br13 { border-top-left-radius: 3px; border-bottom-right-radius: 3px; b=
+order-bottom-left-radius: 3px; }
+
+.ace_br14 { border-top-right-radius: 3px; border-bottom-right-radius: 3px; =
+border-bottom-left-radius: 3px; }
+
+.ace_br15 { border-radius: 3px; }
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-efe3d74c-5b74-4398-8f4b-208ea55ceb0d@mhtml.blink
+
+@charset "utf-8";
+
+.ace-tm .ace_gutter { background: rgb(240, 240, 240); color: rgb(51, 51, 51=
+); }
+
+.ace-tm .ace_print-margin { width: 1px; background: rgb(232, 232, 232); }
+
+.ace-tm .ace_fold { background-color: rgb(107, 114, 230); }
+
+.ace-tm { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-tm .ace_cursor { color: black; }
+
+.ace-tm .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-tm .ace_storage, .ace-tm .ace_keyword { color: blue; }
+
+.ace-tm .ace_constant { color: rgb(197, 6, 11); }
+
+.ace-tm .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-tm .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-tm .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_invalid { background-color: rgba(255, 0, 0, 0.1); color: red; =
+}
+
+.ace-tm .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-tm .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-tm .ace_support.ace_type, .ace-tm .ace_support.ace_class { color: rgb(=
+109, 121, 222); }
+
+.ace-tm .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-tm .ace_string { color: rgb(3, 106, 7); }
+
+.ace-tm .ace_comment { color: rgb(76, 136, 107); }
+
+.ace-tm .ace_comment.ace_doc { color: rgb(0, 102, 255); }
+
+.ace-tm .ace_comment.ace_doc.ace_tag { color: rgb(128, 159, 191); }
+
+.ace-tm .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-tm .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-tm .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-tm .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-tm .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-tm .ace_list { color: rgb(185, 6, 144); }
+
+.ace-tm .ace_meta.ace_tag { color: rgb(0, 22, 142); }
+
+.ace-tm .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-tm .ace_marker-layer .ace_selection { background: rgb(181, 213, 255); =
+}
+
+.ace-tm.ace_multiselect .ace_selection.ace_start { box-shadow: white 0px 0p=
+x 3px 0px; }
+
+.ace-tm .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-tm .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); }
+
+.ace-tm .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; border:=
+ 1px solid rgb(192, 192, 192); }
+
+.ace-tm .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, 0.07=
+); }
+
+.ace-tm .ace_gutter-active-line { background-color: rgb(220, 220, 220); }
+
+.ace-tm .ace_marker-layer .ace_selected-word { background: rgb(250, 250, 25=
+5); border: 1px solid rgb(200, 200, 250); }
+
+.ace-tm .ace_indent-guide { background: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w1=
+1/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-be265b2b-17aa-4fbf-af35-8a7f59b94be4@mhtml.blink
+
+@charset "utf-8";
+
+.error_widget_wrapper { background: inherit; color: inherit; border: none; =
+}
+
+.error_widget { border-top: 2px solid; border-bottom: 2px solid; margin: 5p=
+x 0px; padding: 10px 40px; white-space: pre-wrap; }
+
+.error_widget.ace_error, .error_widget_arrow.ace_error { border-color: rgb(=
+255, 90, 90); }
+
+.error_widget.ace_warning, .error_widget_arrow.ace_warning { border-color: =
+rgb(241, 216, 23); }
+
+.error_widget.ace_info, .error_widget_arrow.ace_info { border-color: rgb(90=
+, 90, 90); }
+
+.error_widget.ace_ok, .error_widget_arrow.ace_ok { border-color: rgb(90, 17=
+0, 90); }
+
+.error_widget_arrow { position: absolute; border-width: 5px; border-style: =
+solid; border-bottom-color: initial; border-image: initial; top: -5px; bord=
+er-top-color: transparent !important; border-right-color: transparent !impo=
+rtant; border-left-color: transparent !important; }
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d32df852-655e-4aba-bb1a-90c4c0b83003@mhtml.blink
+
+@charset "utf-8";
+
+.ace-chrome .ace_gutter { background: rgb(235, 235, 235); color: rgb(51, 51=
+, 51); overflow: hidden; }
+
+.ace-chrome .ace_print-margin { width: 1px; background: rgb(232, 232, 232);=
+ }
+
+.ace-chrome { background-color: rgb(255, 255, 255); color: black; }
+
+.ace-chrome .ace_cursor { color: black; }
+
+.ace-chrome .ace_invisible { color: rgb(191, 191, 191); }
+
+.ace-chrome .ace_constant.ace_buildin { color: rgb(88, 72, 246); }
+
+.ace-chrome .ace_constant.ace_language { color: rgb(88, 92, 246); }
+
+.ace-chrome .ace_constant.ace_library { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_invalid { background-color: rgb(153, 0, 0); color: white; =
+}
+
+.ace-chrome .ace_fold { }
+
+.ace-chrome .ace_support.ace_function { color: rgb(60, 76, 114); }
+
+.ace-chrome .ace_support.ace_constant { color: rgb(6, 150, 14); }
+
+.ace-chrome .ace_support.ace_type, .ace-chrome .ace_support.ace_class.ace-c=
+hrome .ace_support.ace_other { color: rgb(109, 121, 222); }
+
+.ace-chrome .ace_variable.ace_parameter { font-style: italic; color: rgb(25=
+3, 151, 31); }
+
+.ace-chrome .ace_keyword.ace_operator { color: rgb(104, 118, 135); }
+
+.ace-chrome .ace_comment { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_comment.ace_doc.ace_tag { color: rgb(35, 110, 36); }
+
+.ace-chrome .ace_constant.ace_numeric { color: rgb(0, 0, 205); }
+
+.ace-chrome .ace_variable { color: rgb(49, 132, 149); }
+
+.ace-chrome .ace_xml-pe { color: rgb(104, 104, 91); }
+
+.ace-chrome .ace_entity.ace_name.ace_function { color: rgb(0, 0, 162); }
+
+.ace-chrome .ace_heading { color: rgb(12, 7, 255); }
+
+.ace-chrome .ace_list { color: rgb(185, 6, 144); }
+
+.ace-chrome .ace_marker-layer .ace_selection { background: rgb(181, 213, 25=
+5); }
+
+.ace-chrome .ace_marker-layer .ace_step { background: rgb(252, 255, 0); }
+
+.ace-chrome .ace_marker-layer .ace_stack { background: rgb(164, 229, 101); =
+}
+
+.ace-chrome .ace_marker-layer .ace_bracket { margin: -1px 0px 0px -1px; bor=
+der: 1px solid rgb(192, 192, 192); }
+
+.ace-chrome .ace_marker-layer .ace_active-line { background: rgba(0, 0, 0, =
+0.07); }
+
+.ace-chrome .ace_gutter-active-line { background-color: rgb(220, 220, 220);=
+ }
+
+.ace-chrome .ace_marker-layer .ace_selected-word { background: rgb(250, 250=
+, 255); border: 1px solid rgb(200, 200, 250); }
+
+.ace-chrome .ace_storage, .ace-chrome .ace_keyword, .ace-chrome .ace_meta.a=
+ce_tag { color: rgb(147, 15, 128); }
+
+.ace-chrome .ace_string.ace_regex { color: rgb(255, 0, 0); }
+
+.ace-chrome .ace_string { color: rgb(26, 26, 166); }
+
+.ace-chrome .ace_entity.ace_other.ace_attribute-name { color: rgb(153, 68, =
+9); }
+
+.ace-chrome .ace_indent-guide { background: url("data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd=
+1/w11/gAAAABJRU5ErkJggg=3D=3D") right center repeat-y; }
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://codingbat.com/codingbat.css
+
+@charset "utf-8";
+
+html, body { font-size: small; font-family: verdana, arial, helvetica, sans=
+-serif; }
+
+html, body { text-size-adjust: none; }
+
+pre, code { font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-cod=
+e-pro, monospace; }
+
+p { max-width: 800px; }
+
+p.max { max-width: 800px; }
+
+p.max2 { max-width: 600px; }
+
+a { text-decoration: none; }
+
+:link { color: rgb(0, 0, 221); }
+
+:visited { color: rgb(85, 26, 139); }
+
+.coding { border: 2px solid gray; font-family: monospace; font-size: medium=
+; }
+
+.lefty { float: left; padding-right: 40px; }
+
+.righty { float: left; }
+
+.parenty::after { content: ""; clear: both; display: table; }
+
+div.floatleft { float: left; }
+
+div.floatclear { clear: both; }
+
+div.summ { max-width: 300px; margin: 15px; padding: 10px; border: 1px solid=
+ gray; border-radius: 1em; }
+
+div.indent { margin-left: 15px; margin-top: 15px; }
+
+td { vertical-align: top; }
+
+.h1 { font-size: 300%; }
+
+.h2 { font-size: 166%; }
+
+.h3 { font-size: 120%; }
+
+span.no { color: red; }
+
+td.no { min-width: 22px; background-color: red; }
+
+td.ok { min-width: 22px; background-color: green; }
+
+code.spaceright { margin-right: 12px; }
+
+p.indent { margin-left: 25px; }
+
+button.go { width: 200px; height: 30px; background-color: rgb(241, 241, 241=
+); font-size: 112%; font-weight: bold; border-radius: 6px; }
+
+button.gray { background-color: rgb(241, 241, 241); border-radius: 6px; }
+
+button.go { font-weight: bold; border-radius: 8px; background: linear-gradi=
+ent(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)) rgb(187, 187, 187);=
+ border-style: solid; border-width: 1px; border-color: rgb(119, 119, 119); =
+color: rgb(51, 51, 51); text-align: center; text-shadow: rgb(216, 216, 216)=
+ 1px 1px 0px; width: 200px; height: 35px; font-size: 125%; }
+
+button.go:hover { background-color: rgb(170, 170, 170); color: rgb(17, 17, =
+17); border-color: rgb(68, 68, 68); transition-duration: 0.1s; }
+
+button.go:active { background: rgb(72, 72, 72); }
+
+button.plain { }
+
+button.plain:hover { }
+
+div.minh { min-height: 32px; }
+
+div.pretab { min-height: 9px; }
+
+div.tabc { min-width: 100vw; clear: both; }
+
+nav ul { list-style: none; padding: 0px; margin: 0px; }
+
+nav li { display: inline; border-style: solid; border-color: initial; borde=
+r-image: initial; border-width: 1px 1px 0px; margin: 0px 25px 0px 6px; }
+
+nav li a { padding: 0px 40px; }
+
+div.tabin { border-top: 1px solid; clear: both; }
+
+#content { border-top: 1px solid; clear: both; }
+
+#selected { position: relative; top: 1px; background: white; }
+
+#ace_div { width: 600px; height: 375px; border: 2px solid gray; }
+
+table.out { border-collapse: collapse; }
+
+table.out td { border: 2px solid black; padding: 4px; }
+
+table.clean { border-collapse: collapse; }
+
+td.clean { border: 1px solid black; padding: 6px; }
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://codingbat.com/s10j.png
+
+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
+QmCC
+
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://codingbat.com/c2big.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/7QAcUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAD/2wBDAAIB
+AQIBAQICAQICAgICAwUDAwMDAwYEBAMFBwYHBwcGBgYHCAsJBwgKCAYGCQ0JCgsLDAwMBwkNDg0M
+DgsMDAv/2wBDAQICAgMCAwUDAwULCAYICwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsL
+CwsLCwsLCwsLCwsLCwsLCwv/wAARCAAyADADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAA
+AAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEI
+I0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlq
+c3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW
+19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL
+/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLR
+ChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn
+6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiivgf/guP/wAFR9T/AGOfh9pXwp/ZWaPU
+f2gPizFJbaBErAr4as+Vm1e5zkKsYDiMNwzqThhGynHEYilhKU69aSjCKbbeiSWrbfZIwxWKo4Kj
+PEYiajTgnKUm7JJK7bfRJbnzT/wXP/by1P8AbK+L2o/sh/sr6vcWPhjS9r/F/wAT2LDMER5TRLeT
+kebIR++9MbDkLMhX/gk9/wAFadd/Yu8caD+zj/wUj143nha8K2Pw3+Jd84SK4jUAR6XqspOI5kG1
+Y5mOGAAY9GrwP9nX4C6X+zb8MY9F0q5lv7yaR9Q1nV7ty1zq97J8011PIxJJY5+8TgAc9Sek/wCC
+cf7FUf8AwWg/acbxh8U7M3X7L/wh1PbZ2s0ebf4i65GMHOf9ZZQBvm6q+4LyHfZ+DcJ+ImccacWV
+IZbBf2dCNpcytZa2nfdTk9o7cu6unJfzNwP4rZ/4hccVaeU01/ZVOLUuZWtFX5al7XVScvhhtyXT
+V4uS/bX4+/H7wd+y78Idd8e/HzX7Dwx4S8N2xutQ1C7fCRKOAoAyzuzEKqKCzswVQSQKyv2U/wBr
+HwB+238DtH+I37M3iK28TeEtcDi3u4keJ0dGKvFLFIA8UisCCjqD0PQgn8KP2iP2pvFf/BZb9rLx
+HL+0jY6j4K+G/wAFNdbT9K+FN/mO+XUEyPt2uRDh5PvqkYLIuGQEje02z+yv+1vP/wAEUf2r7rxj
+NHcv+zd8V71I/HGm2sLyjwhqbfLFq1tDGCfLfhJUQZI4AJWJa/QJeI+VR4j/ANW5Nqrb4npHndmo
+a9WndPZuyV2z9Rl4s5JDiz/VGTarWtzPSPtHZqmr63cXdPZu0U22fsR/wUk/4KC+D/8Agmp+y1rP
+xH+K7G8uYyLHQdFhb/S/EWpyA+RZwLySWIJZgDsRXbB24P4t/AzwN4v8X+P/ABR8Z/2uLpdW+MXx
+NlF1qj9YtBtOPI0y1BJ8uKJAikAnJQAltu42/Hfx88Q/8FZv2sh8e/i3b3mn/DXwq81l8J/DN0m0
+QWxYB9XuI+huJygZf7oCgEhEY1/2ifi14h0PUfDfw+/Zy0v/AIST4v8AxMu/7J8K6SuDskP37yfP
+CwQrl2ZsL8pJO1WI/IfFPi/FcW5jDg/IfevK1RraUl9m/wDLC15vuv7rv+D+NPHeN45zWnwFwz79
+5KNVp6SkteS/SFO3NUfdW2i7n/Cq/FX/AAUs/aitv2av2c76bS9NEKX/AMTfFNuu4eG9JJGbWNun
+2q4HyKh7NyNokK/vd8BvgX4W/Zm+DXhvwB8E9Jt9D8K+E7GPTtNsoRxFEg6serOxJZnOSzMzEkkm
+vFf+CVH/AATa8P8A/BMr9l608IaNcJrvjLWpf7W8ZeJXQ/aPEOqSDMsrM3zeUpJSND91eT8zOW+m
+K/cOCuEcLwXlkMBh9Zbzl1nLq/TpFdF53b/o7w84EwXh7k9PLMLrP4qk7azm936dIrpFLd3b/Kr/
+AIL3/wDBO3WvCniZP2uf2ONIlvfGXhSzFv8AETw9aLj/AIS/Q4wN1wFHW6tUXcG6tGg6+Uqv8v8A
+g/xZ4W/aO+EtnquiCx8QeFvE9mH8u4hWWKeNuGjljYEZBBVkI4Kkdq/fR0EiFZAGVhggjIIr8G/+
+Ckf7II/4I0ftVyeMPA1vJB+zF8Y9TZ540Qm3+HmvSZYrgD93Z3GCVxwu0rgCNd/574w+HsuIsN/b
+GWx/2uktUt5xWtlb7Ud49Wrx1fLb8s8e/CuXFeEWfZTD/bqC1Ud6kFrZW1c4bxtq1eOr5bYnxt+M
+nh39mX4RX3iTxjtttL0iJYba0t1AkuZMbYraBBxuYgKAOAAT0Br7f/4IQ/8ABMPXPgvp+pftE/tp
+6aq/HL4m2oW006YE/wDCDaK2Gh0+JW+5M42vKcBgcIcHzC/zb/wRw/Yfuf8Agpj+0RZftIftBaZO
+nwV+HN+6fDLQ7yPaniXUYmKvrU8bD5oonXEQPV17eWwk/bOuvwj8PP8AVPB/2hjo/wC11VrfeEXr
+y+r3n52XS77vAvwqXBGA/tTMof7fXWt96cHqof4no5+do/Zuyiiiv2Q/fgr5W/4LiaLZ69/wSG/a
+Kh1y0tr2GLwNqNyiTxLIqSxRGSOQBgQGR0R1bqrKCMECiigD2n9k/RLLw3+y58N7Dw7aWthYWfhf
+TYoLa2iWKGBBaxgKiKAFA9AMV6BRRQAUUUUAf//Z
+
+------MultipartBoundary--rtb3zqtrDmuiFFsnQgkgtmvLmBhFBWhR9YBePHDGpG------
