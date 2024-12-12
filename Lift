@@ -1,0 +1,175 @@
+import java.util.*;
+public class Lift{
+    public static void main(String[] args) {
+        TotalLifts L1=new TotalLifts("L1",0,1000,true,new ArrayList<>(Arrays.asList(0,1,2,3,4,5)));
+        TotalLifts L2=new TotalLifts("L2",0,1000,true,new ArrayList<>(Arrays.asList(0,1,2,3,4,5)));
+        TotalLifts L3=new TotalLifts("L3",0,1000,true,new ArrayList<>(Arrays.asList(6,7,8,9,0)));
+        TotalLifts L4=new TotalLifts("L4",0,1000,true,new ArrayList<>(Arrays.asList(6,7,8,9,0)));
+        TotalLifts L5=new TotalLifts("L5",0,1000,true,new ArrayList<>(Arrays.asList(0,1,2,3,4,5,6,7,8,9)));
+
+
+        Scanner sc=new Scanner(System.in);
+        TotalLifts[] liftArray={L1,L2,L3,L4,L5};
+        displayPosition(liftArray);
+        boolean run=true;
+        while(run){
+            System.out.println("---------------------------");
+            System.out.println("Enter the option you want : ");
+            System.out.println("---------------------------");
+            System.out.println("1: To use the lift : \n2:To change the capacity : \n3:To change the status of lift(under maintanence or not) : \n4:Exit");
+            int choice=sc.nextInt();
+            sc.nextLine();
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter the source and destination floor you want to go ! : ");
+                    int fromPostion=sc.nextInt();
+                    int destination=sc.nextInt();
+                    sc.nextLine();
+                    assignTheLift(liftArray, fromPostion, destination);
+                    displayPosition(liftArray);
+                    break;
+                case 2 :
+                    System.out.println("Enter the lift name (L1,L2...)");
+                    String name=sc.nextLine();
+                    TotalLifts curLift=null;
+                    for(TotalLifts lift:liftArray){
+                        if(lift.getName().equals(name)){
+                            curLift=lift;
+                            break;
+                        }
+                    }
+                    System.out.println("Enter the new capacity ");
+                    int newCapacity=sc.nextInt();
+                    sc.nextLine();
+                    System.out.println("The new capacity of "+curLift.getName()+" is "+assignCapacity(curLift, newCapacity));
+                    displayPosition(liftArray);
+                    break;
+                case 3:
+                    System.out.println("Enter the lift name (L1,L2...)");
+                    String liftName=sc.nextLine();
+                    TotalLifts currentLift=null;
+                    for(TotalLifts lift:liftArray){
+                        if(lift.getName().equals(liftName)){
+                            currentLift=lift;
+                            break;
+                        }
+                    }
+                    System.out.println("Enter -1 for change the lift as under maintanence or any other number for working");
+                    int statusOfLift=sc.nextInt();
+                    sc.nextLine();
+                    if(statusOfLift==-1){
+                        liftStatus(currentLift,false);
+                    }
+                    else{
+                        liftStatus(currentLift,true);
+                    }
+                    sc.nextLine();
+                    System.out.println("The lift status will change : "+currentLift.getName());
+                    displayPosition(liftArray);
+                    break;
+
+                case 4:
+                    run=false;
+
+                default:
+                    System.out.println("Enter available option only ");
+            }
+
+
+        }
+
+    }
+
+    public static void displayPosition(TotalLifts[] liftArray) {
+        for (int i=0;i<liftArray.length;i++) {
+            System.out.println("Lift "+(i+1)+" in " +(liftArray[i].getPostion()));
+        }
+    }
+
+    public static void assignTheLift(TotalLifts[] liftArray,int fromPostion,int destination) {
+        int nearest=Integer.MAX_VALUE;
+        TotalLifts currentNearest=null;
+        boolean direction=false;  // consider as downward
+        if(fromPostion<destination){
+            direction=true; // consider as upward
+        }
+        for(TotalLifts lift:liftArray){
+                if(!(lift.isWorkingStatus() && (lift.getTotalStoppings().contains(fromPostion) && lift.getTotalStoppings().contains(destination)))){
+                    continue;
+                }
+                else if((Math.abs(lift.getPostion()-fromPostion))<nearest){
+                    nearest=lift.getPostion();
+                    currentNearest=lift;
+                }
+                else if((Math.abs(lift.getPostion()-fromPostion))==nearest){
+                   if(direction){
+                     if(lift.getPostion()<currentNearest.getPostion()){
+                        nearest=lift.getPostion();
+                        currentNearest=lift;
+                     }
+                   }
+                   else{
+                    if(lift.getPostion()>currentNearest.getPostion()){
+                        nearest=lift.getPostion();
+                        currentNearest=lift;
+                     }
+                   }
+                }
+        }
+        System.out.println(currentNearest.getName()+" is assigned");
+        currentNearest.setPostion(destination);
+        // System.out.println();
+    }
+    
+    public static int assignCapacity(TotalLifts lift,int newCapacity){
+        lift.setCapacity(newCapacity);
+        return lift.getCapacity();
+    }
+    public static void liftStatus(TotalLifts lift,boolean status) {
+        lift.setWorkingStatus(status);
+    }
+
+
+}
+class TotalLifts{
+    private String name;
+    private int postion;
+    private int capacity;
+    private boolean workingStatus;
+    private ArrayList totalStoppings;
+    
+        public TotalLifts(String name,int postion,int capacity, boolean workingStatus, ArrayList totalStoppings) {
+            this.totalStoppings=totalStoppings;
+            this.name=name;
+            this.capacity = capacity;
+            this.workingStatus = workingStatus;
+            this.postion=postion;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public int getCapacity() {
+        return capacity;
+    }
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+    public boolean isWorkingStatus() {
+        return workingStatus;
+    }
+    public void setWorkingStatus(boolean workingStatus) {
+        this.workingStatus = workingStatus;
+    }
+
+    public int getPostion() {
+        return postion;
+    }
+    public void setPostion(int postion) {
+        this.postion = postion;
+    }
+
+    public ArrayList getTotalStoppings() {
+        return totalStoppings;
+    }
+}
